@@ -23,7 +23,7 @@ export default function About() {
           </div>
 
           <h1 className={classes.title}>
-            Hi, I'm <span>Ed</span> Stalley
+            Hi, I&apos;m <span>Ed</span> Stalley
           </h1>
           <p className={classes.description}>
             Web Developer
@@ -35,7 +35,7 @@ export default function About() {
             <div>
               <div className={classes.about_text}>
                 <h1 className={classes.title_about}>About Me</h1>
-                <p>I'm an Irish Web Developer currently living in Japan.</p>
+                <p>I&apos;m an Irish Web Developer currently living in Japan.</p>
               </div>
             </div>
             <div>

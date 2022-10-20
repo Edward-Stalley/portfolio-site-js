@@ -113,25 +113,38 @@ export default function ProjectInfo() {
               {tech.includes("CSS") && (
                 <div className={classes.logo}>
                   {" "}
-                  <img width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                  <Image
+                    width={50}
+                    height={50}
+                    // src={require("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg")}
+                  />
                 </div>
               )}
               {tech.includes("HTML") && (
                 <div className={classes.logo}>
-                  <img width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+                  <Image
+                    width={50}
+                    height={50}
+                    // src={require("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg")}
+                  />
                 </div>
               )}
               {tech.includes("JS") && (
                 <div className={classes.logo}>
-                  <img
+                  <Image
                     width={50}
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+                    height={50}
+                    // src={require("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg")}
                   />
                 </div>
               )}
               {tech.includes("React") && (
                 <div className={classes.logo}>
-                  <img width={50} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                  <Image
+                    width={50}
+                    height={50}
+                    // src={require("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg")}
+                  />
                 </div>
               )}
               {tech.includes("MySQL") && (

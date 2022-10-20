@@ -5,12 +5,12 @@ import message from "/public/images/message.svg";
 import Image from "next/image";
 import Navigation from "/components/sections/Navigation.js";
 
-export default function contact() {
-  const [fullname, setFullname] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
-  const [submitted, setSubmitted] = useState(false);
+export default function Contact() {
+  const [fullname, setFullname] = React.useState("");
+  const [email, setEmail] = React.useState("");
+  const [subject, setSubject] = React.useState("");
+  const [message, setMessage] = React.useState("");
+  const [submitted, setSubmitted] = React.useState(false);
 
   async function handleSubmit(e) {
     e.preventDefault();
