@@ -1,0 +1,51 @@
+const projectData = [
+  {
+    id: "Flashcard App",
+    title: "Flashcard App",
+    image: require("/public/images/FlashcardApp.png"),
+    imageTwo: require("/public/images/FlashcardAppWhite.png"),
+    description: "This is an Japanse/English Flashcard App",
+    process:"process here",
+    objective: "To create a flashcard app for my students so they can prepare and review vocab with ease.",
+    development: "As both a language student I found myself spending more time making flashcards than actually studying them. I wished that my school had utilised some more modern approaches to studying. Utilising React on the frontend and MySql on I wanted to develop an app that took weekly vocab lists from a variety of classes and uploaded them into flashcards for students to access for both preperation and review.",
+    tech: ["CSS", "HTML", "JS","React", "MySQL"],
+    weblink: "https://flashcards-1-2-baeu.vercel.app/", 
+    github: "https://github.com/Edward-Stalley/Flashcards-1.2"
+
+  },
+  {
+    id: "Dice Game",
+    title: "Dice Game",
+    image: require("/public/images/DiceGame_1.png"),
+        imageTwo: require("/public/images/DiceGame_2.png"),
+
+    description: "A Timed Dice Roll Game",
+    process:"process here",
+    development: "I developed...",
+    tech: ["JSX", "React"],
+    weblink: "https://flashcards-1-2-baeu.vercel.app/", 
+    github: "https://github.com/Edward-Stalley/Flashcards-1.2"
+
+
+  },
+   {
+    id: "Bike Website",
+    title: "Bike Website",
+    image: require("/public/images/bicycle_site-2.png"),
+    imageTwo: require("/public/images/bicycle_site-3.png"),
+    imageThree:require("/public/images/bicycle_site-4.png"),
+    description: "put description here",
+    objective: "To create a flashcard app for my students so they can prepare and review vocab with ease.",
+    process:"This is a bicycle website",
+    development: "As both a language student I found myself spending more time making flashcards than actually studying them. I wished that my school had utilised some more modern approaches to studying. Utilising React on the frontend and MySql on I wanted to develop an app that took weekly vocab lists from a variety of classes and uploaded them into flashcards for students to access for both preperation and review.",
+    tech: ["CSS", "HTML"],
+    weblink: "https://flashcards-1-2-baeu.vercel.app/", 
+    github: "https://github.com/Edward-Stalley/Flashcards-1.2"
+
+
+
+  },
+  
+];
+
+export default projectData;

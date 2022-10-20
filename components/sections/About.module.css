@@ -1,0 +1,162 @@
+.main {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 180px;
+}
+
+.title span {
+  /* color: linear-gradient(to bottom, #6e529d 0%, #d97b93 100%); */
+  /* color: var(--font-color-1); */
+  /* color: #d97b93; */
+  color: #ffb6b6;
+}
+
+.title a {
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  /* background-color: black; */
+  padding: 20px;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  /* background-color: black; */
+  text-align: center;
+}
+
+.description {
+  margin: 0rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.image_container {
+  z-index: -2;
+}
+
+.landingPage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 200px;
+  align-items: center;
+  height: 100vh;
+}
+
+.landingPage h1 {
+  /* font-size: 45px; */
+  font-weight: 600;
+}
+
+.title span {
+  font-weight: 600;
+}
+
+.title_about {
+  position: relative;
+}
+
+.title_about::after {
+  content: " ";
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  right: 0;
+  height: 0.5em;
+  min-width: none;
+  max-width: 200px;
+  border-top: 2px solid white;
+  /* z-index: -1; */
+}
+
+.about_img {
+  display: flex;
+  min-width: 400px;
+  /* border: solid 1px white; */
+  position: relative;
+  align-items: center;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* padding: 80px; */
+  /* min-width: 300px; */
+}
+
+.about_text {
+  /* position: relative; */
+  display: flex;
+  /* border: solid 1px white; */
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px;
+  min-width: 300px;
+}
+
+.about_text h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.about_text p {
+  font-size: 18px;
+}
+
+.about {
+  display: grid;
+  gap: 2rem;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  grid-row: auto;
+}
+
+.logos_container {
+  gap: 20px;
+  /* grid-column: 2/3; */
+  display: grid;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  justify-content: space-between;
+  /* padding: 10px; */
+}
+
+.logos img {
+  width: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  .about {
+    grid-template-columns: 1fr;
+  }
+
+  .main {
+    margin-bottom: 500px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .main {
+    margin-bottom: 800px;
+  }
+}

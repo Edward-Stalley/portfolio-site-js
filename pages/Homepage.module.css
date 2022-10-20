@@ -1,0 +1,12 @@
+.homepage {
+  height: 2000px;
+}
+
+.container {
+  /* background-color: pink; */
+  /* padding: 0 2rem; */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

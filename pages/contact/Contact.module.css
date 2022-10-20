@@ -1,0 +1,203 @@
+.background_main {
+  /* background: linear-gradient(to bottom, #6e529d 0%, #d97b93 100%); */
+  /* position: relative; */
+  /* background: linear-gradient(to bottom, #26242b 0%, #2b2a2a 100%); */
+}
+
+.shape_container {
+  width: 100%;
+  position: absolute;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  grid-template-rows: auto;
+  justify-content: center;
+  background: linear-gradient(to bottom, #6e529d 0%, #d97b93 100%);
+  height: 50vh;
+}
+.background_shape {
+  /* position: absolute; */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 10em;
+  height: 10em;
+  transform: rotate(45deg);
+  margin: 2em;
+  /* z-index: 1; */
+  /* float: left; */
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
+}
+
+.contact_form {
+  background: #181818;
+  /* background: linear-gradient(to left top, #111111, #181818, #181818, #2a2a2a, #242424, #1e1e1e, #181818, #111111); */
+
+  /* background: linear-gradient(110deg, #181818 55%, #91d7e1 54%, #91d7e1 57%, #181818 57%, #181818) 0 0/100% */
+  /* background: linear-gradient(110deg, #d97b93 55%, #181818b9 55%, #181818cd 57%, #181818 57%, #181818 0) 0 0/100% */
+  /* calc(100% - 10px) no-repeat, */
+  /* linear-gradient(110deg, #181818cd 57%, transparent 0) 0 100%/100% 100% no-repeat; */
+  /* linear-gradient(110deg, #4095a9 57%, transparent 0) 0 100%/100% 100% no-repeat; */
+  /* background-image: linear-gradient(
+      to left top,
+      #111111,
+      #181818,
+      #1e1e1e,
+      #242424,
+      #2a2a2a,
+      #2a2a2a,
+      #2a2a2a,
+      #2a2a2a,
+      #242424,
+      #1e1e1e,
+      #181818,
+      #111111
+    ); */
+
+  /* text-transform: uppercase; */
+  /* font-size: 16px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* --main: #f8f4e5;
+  --secondary: blue;
+  --font-color: green;
+  --focus: #6bd4b1; */
+
+.form_container {
+  /* background: linear-gradient(#d97b93 0%, #222 100%); */
+
+  position: relative;
+  max-width: 600px;
+  border-radius: 8px;
+  padding: 20px;
+  /* border: 1px white solid; */
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 1rem;
+  padding: 20px;
+  /* border-radius: 8px; */
+}
+
+.heading span {
+  /* color: var(--shade); */
+}
+
+.heading {
+  display: flex;
+}
+
+.btn_container {
+  /* padding: 10px; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.contact_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+  background: #181818;
+}
+
+.contact_header h1 {
+  /* background-color: whitesmoke; */
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  min-width: 300px;
+  /* color: #181818; */
+  /* padding: 20px; */
+}
+
+.form div {
+  z-index: 1;
+  font-size: 16px;
+}
+
+.form div:nth-of-type(odd) {
+  grid-column: 2/4;
+  display: flex;
+  align-items: center;
+}
+
+.form div:nth-child(1) {
+  color: white;
+  grid-column: 1/3;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.form div:nth-of-type(even) {
+  background-color: rgba(204, 204, 204, 0.055);
+  grid-column: 1/2;
+  border-radius: 4px;
+  display: flex;
+  /* padding-left: 20px; */
+  /* padding: 10px; */
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.form div:nth-child(10),
+.form div:nth-child(11) {
+  /* font-weight: 700; */
+  letter-spacing: 0.5px;
+  /* padding: 20px; */
+  /* height: 40px; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-top: 40px;
+  /* grid-column: 1/2; */
+  border-radius: 4px;
+}
+
+/* button container */
+.form div:nth-child(10) {
+  display: flex;
+  /* background-color: #6e529d; */
+  justify-content: flex-end;
+  background-color: transparent;
+  /* justify-content: flex-start; */
+  grid-column: 3/4;
+}
+
+.return_btn {
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  padding: 4px 4px;
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  /* resize: vertical; */
+  cursor: pointer;
+}
+
+.return_btn:hover {
+  /* background-color: pink; */
+  /* color: #222; */
+  transition: background 0.4s ease;
+}
+
+.form div.contact_header_image {
+  max-height: 100px;
+  min-width: 100px;
+  /* height: 200px; */
+  width: 200px;
+  background: #181818;
+}
+
+.form div:nth-child(10) {
+  background: #181818;
+}
