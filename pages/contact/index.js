@@ -58,7 +58,7 @@ export default function Contact() {
                   <h1>Get in Touch!</h1>
                 </div>
                 <div className={classes.contact_header_image}>
-                  <Image src={require("/public/images/message.svg")} width={100}></Image>
+                  <Image src={require("/public/images/message.svg")} width={100} alt=" "></Image>
                 </div>
               </div>
             </div>

@@ -44,17 +44,17 @@ export default function About() {
                   <StartupBackground />
                   <div className={classes.logos}>
                     <div className={classes.logo}>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+                      {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" /> */}
                     </div>
                     <div className={classes.logo}>
                       {" "}
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                      {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /> */}
                     </div>
                     <div className={classes.logo}>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+                      {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" /> */}
                     </div>
                     <div className={classes.logo}>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                      {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> */}
                     </div>
                     <div className={classes.logo}>
                       <svg width="50" fill="grey" viewBox="0 0 128 128">
