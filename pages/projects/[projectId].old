@@ -4,12 +4,19 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import projectData from "/components/projects/projectData";
 import Navigation from "/components/sections/Navigation";
+let currentProject;
 
-export default function ProjectPage() {
+export default function ProjectInfo() {
   const router = useRouter();
-  console.log(`this is the router ${router.query.projectId}`);
+  // const { id } = router.query;
+  // console.log(id);
+  // const projects = projectData;
+  // get access to data encoded in the url
+  // can i define id before it then gets it from the project?
 
-  const currentProject = projectData.find((project) => project.id === router.query.projectId);
+  React.useEffect(() => {});
+
+  currentProject = projectData.find((project) => project.id === router.query.projectId);
 
   const {
     id,
@@ -27,8 +34,8 @@ export default function ProjectPage() {
     weblink,
     github,
   } = currentProject;
-
   // console.log(id, title, content, image);
+  // send request to backend api to fetch item with newsId
 
   return (
     <div>

@@ -21,9 +21,9 @@ export default function Navigation(props) {
               <i className={classes.icon}></i>
             </button>
             <div className={classes.dropdown_content}>
-              <Link href={`../projects/Flashcard%20App`}>Flashcard App</Link>
-              <Link href={`../projects/Dice%20Game`}>Dice Game</Link>
-              <Link href={`../projects/Bike%20Website`}>Bicycle Website</Link>
+              <Link href={`../projects/Flashcard App`}>Flashcard App</Link>
+              <Link href={`../projects/Dice Game`}>Dice Game</Link>
+              <Link href={`../projects/Bike Website`}>Bicycle Website</Link>
             </div>
           </div>
         </li>
