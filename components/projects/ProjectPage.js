@@ -11,6 +11,8 @@ export default function ProjectPage() {
 
   const currentProject = projectData.find((project) => project.id === router.query.projectId);
 
+  if (!currentProject) return <p></p>;
+
   const {
     id,
     title,
