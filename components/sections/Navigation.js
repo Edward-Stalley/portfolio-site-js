@@ -11,12 +11,12 @@ export default function Navigation(props) {
         {/* {props.returnBtn && <li>Return to Home</li>} */}
         <li className={classes.list_item}>
           {/* <Link href="#about-section">About</Link> */}
-          <a href="/#about-section">About</a>
+          <Link href="/#about-section">About</Link>
           {/* <a href={props.about}>About</a> */}
         </li>
         <li className={classes.list_item}>
           <div className={classes.dropdown}>
-            <a href="/#projects-section"> Projects</a>
+            <Link href="/#projects-section"> Projects</Link>
             <button className={classes.dropbtn}>
               <i className={classes.icon}></i>
             </button>
@@ -24,7 +24,6 @@ export default function Navigation(props) {
               <Link href={`../projects/Flashcard%20App`}>Flashcard App</Link>
               <Link href={`../projects/Dice%20Game`}>Dice Game</Link>
               <Link href={`../projects/Bike%20Website`}>Bicycle Website</Link>
-              {/* <a href="#">Bicycle Website</a> */}
             </div>
           </div>
         </li>
