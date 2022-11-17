@@ -26,8 +26,23 @@
       "collection objective"
       "footer          footer     ";
 
-    /* grid-template-columns: 1fr; */
   }
+
+  @media only screen and (max-width: 300px) {
+    .project_container {
+      grid-template-areas:
+        "header         "
+        "development   "
+        "sidebar "
+        "description "
+        "maintext "
+        "collection "
+        "footer   ";
+
+        grid-template-columns: 1fr;
+
+  
+    }
 
   .main {
     margin-bottom: 500px;

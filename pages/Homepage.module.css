@@ -1,5 +1,5 @@
 .homepage {
-  height: 2000px;
+  /* height: 2000px; */
 }
 
 .container {
@@ -9,4 +9,9 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+@media only screen and (max-width: 300px) {
+  .container {
+  }
 }
