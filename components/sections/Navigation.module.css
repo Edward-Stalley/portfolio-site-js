@@ -14,6 +14,7 @@
 }
 
 .list_item {
+  color: white;
   padding: 10px;
   display: flex;
   justify-content: center;

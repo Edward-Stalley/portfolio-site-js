@@ -67,7 +67,8 @@ h2 {
   }
   body {
     color: white;
-    background: #111;
+    /* background: #111; */
+    background: #181818;
   }
 }
 
