@@ -353,7 +353,9 @@
 }
 
 .mainText {
-  background-color: #222;
+  /* background-color: #222; */
+  background-color: black;
+
   display: flex;
 
   grid-area: maintext;
