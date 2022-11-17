@@ -2,6 +2,10 @@
   color: white;
 }
 
+.landingPage {
+  color: white;
+}
+
 .main {
   display: flex;
   width: fit-content;
