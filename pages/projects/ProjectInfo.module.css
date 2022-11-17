@@ -25,24 +25,23 @@
       "maintext maintext"
       "collection objective"
       "footer          footer     ";
-
   }
-
+  /* 
   @media only screen and (max-width: 300px) {
     .project_container {
       grid-template-areas:
         "header         "
         "development   "
-        "sidebar "
+        "objective"
         "description "
+        "sidebar "
         "maintext "
         "collection "
         "footer   ";
 
-        grid-template-columns: 1fr;
-
-  
+      grid-template-columns: 1fr;
     }
+  } */
 
   .main {
     margin-bottom: 500px;
