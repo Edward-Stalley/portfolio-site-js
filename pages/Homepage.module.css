@@ -3,12 +3,12 @@
 }
 
 .container {
-  /* background-color: pink; */
   /* padding: 0 2rem; */
   margin: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background: #181818;
 }
 
 @media only screen and (max-width: 300px) {

@@ -1,4 +1,6 @@
 .background_main {
+  background: #181818;
+
   /* background: linear-gradient(to bottom, #6e529d 0%, #d97b93 100%); */
   /* position: relative; */
   /* background: linear-gradient(to bottom, #26242b 0%, #2b2a2a 100%); */
@@ -28,37 +30,16 @@
 
 .contact_form {
   background: #181818;
-  /* background: linear-gradient(to left top, #111111, #181818, #181818, #2a2a2a, #242424, #1e1e1e, #181818, #111111); */
-
-  /* background: linear-gradient(110deg, #181818 55%, #91d7e1 54%, #91d7e1 57%, #181818 57%, #181818) 0 0/100% */
-  /* background: linear-gradient(110deg, #d97b93 55%, #181818b9 55%, #181818cd 57%, #181818 57%, #181818 0) 0 0/100% */
-  /* calc(100% - 10px) no-repeat, */
-  /* linear-gradient(110deg, #181818cd 57%, transparent 0) 0 100%/100% 100% no-repeat; */
-  /* linear-gradient(110deg, #4095a9 57%, transparent 0) 0 100%/100% 100% no-repeat; */
-  /* background-image: linear-gradient(
-      to left top,
-      #111111,
-      #181818,
-      #1e1e1e,
-      #242424,
-      #2a2a2a,
-      #2a2a2a,
-      #2a2a2a,
-      #2a2a2a,
-      #242424,
-      #1e1e1e,
-      #181818,
-      #111111
-    ); */
-
-  /* text-transform: uppercase; */
-  /* font-size: 16px; */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
+@media only screen and (max-width: 300px) {
+  .contact_form {
+  }
+}
 /* --main: #f8f4e5;
   --secondary: blue;
   --font-color: green;
@@ -66,6 +47,7 @@
 
 .form_container {
   /* background: linear-gradient(#d97b93 0%, #222 100%); */
+  background: #181818;
 
   position: relative;
   max-width: 600px;
@@ -76,7 +58,7 @@
 
 .form {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   gap: 1rem;
   padding: 20px;
@@ -157,7 +139,7 @@
   /* display: flex; */
   /* justify-content: center; */
   /* align-items: center; */
-  margin-top: 40px;
+  /* margin-top: 40px; */
   /* grid-column: 1/2; */
   border-radius: 4px;
 }
@@ -185,15 +167,12 @@
 }
 
 .return_btn:hover {
-  /* background-color: pink; */
-  /* color: #222; */
   transition: background 0.4s ease;
 }
 
 .form div.contact_header_image {
   max-height: 100px;
   min-width: 100px;
-  /* height: 200px; */
   width: 200px;
   background: #181818;
 }
