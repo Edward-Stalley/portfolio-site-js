@@ -31,7 +31,7 @@ export default function About() {
           </p>
         </div>
         <main className={classes.main}>
-          <div id="about-section" className={classes.about}>
+          <div id="about" className={classes.about}>
             <div>
               <div className={classes.about_text}>
                 <h1 className={classes.title_about}>About Me</h1>
@@ -44,17 +44,32 @@ export default function About() {
                   <StartupBackground />
                   <div className={classes.logos}>
                     <div className={classes.logo}>
-                      {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" /> */}
+                      <Image
+                        width={50}
+                        height={50}
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+                      />
                     </div>
                     <div className={classes.logo}>
-                      {" "}
-                      {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /> */}
+                      <Image
+                        width={50}
+                        height={50}
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                      />
                     </div>
                     <div className={classes.logo}>
-                      {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" /> */}
+                      <Image
+                        width={50}
+                        height={50}
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+                      />
                     </div>
                     <div className={classes.logo}>
-                      {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> */}
+                      <Image
+                        width={50}
+                        height={50}
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                      />
                     </div>
                     <div className={classes.logo}>
                       <svg width="50" fill="grey" viewBox="0 0 128 128">

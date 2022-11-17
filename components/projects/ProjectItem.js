@@ -7,6 +7,7 @@ import Image from "next/image";
 export default function ProjectItem(props) {
   const [hover, setHover] = React.useState(false);
 
+  console.log(props.title);
   // const dynamicHREF = "../projects" + `${props.title}`;
 
   return (

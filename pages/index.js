@@ -1,5 +1,5 @@
 // import React from "react"; - this is autoadded in next.js
-import Link from "next/link";
+import { Link } from "react-scroll";
 
 import Navigation from "../components/sections/Navigation";
 import React from "react";

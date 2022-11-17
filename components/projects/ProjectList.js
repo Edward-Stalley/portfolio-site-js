@@ -17,7 +17,7 @@ export default function ProjectList() {
 
   return (
     <div>
-      <div id="projects-section" className={classes.projects_container}>
+      <div id="projects" className={classes.projects_container}>
         <div className={classes.project_text}>
           <h2>Projects</h2>
         </div>
