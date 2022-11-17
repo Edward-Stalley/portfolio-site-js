@@ -134,7 +134,7 @@
 .logos {
   display: flex;
   align-items: center;
-  width: 350px;
+  /* width: 350px; */
   justify-content: space-between;
   /* padding: 10px; */
 }
@@ -151,12 +151,24 @@
   .main {
     margin-bottom: 500px;
   }
+
+  .images_container {
+    /* display: flex; */
+    margin: 1rem;
+    /* justify-content: center; */
+  }
+
+  .logos_container {
+    /* justify-content: center; */
+    margin: 1rem;
+    gap: 0;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   .about {
     grid-template-columns: 1fr;
-    gap: 20px;
+    /* gap: 20px; */
   }
 
   .main {
