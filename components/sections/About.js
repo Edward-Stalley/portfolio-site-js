@@ -46,12 +46,14 @@ export default function About() {
                     <div className={classes.logo}>
                       <Image
                         width={50}
+                        alt=" "
                         height={50}
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
                       />
                     </div>
                     <div className={classes.logo}>
                       <Image
+                        alt=" "
                         width={50}
                         height={50}
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
@@ -59,6 +61,7 @@ export default function About() {
                     </div>
                     <div className={classes.logo}>
                       <Image
+                        alt=" "
                         width={50}
                         height={50}
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
@@ -66,6 +69,7 @@ export default function About() {
                     </div>
                     <div className={classes.logo}>
                       <Image
+                        alt=" "
                         width={50}
                         height={50}
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"

@@ -17,18 +17,11 @@ export default function Navigation(props) {
           {/* <Link scroll={true} href="/#about">
             About
           </Link> */}
-          <a href="/#about">About</a>
-          {/* <Link
-            // activeClass="active"
-            // href="about"
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={50}
-          > */}
+          {/* <a href="/#about">About</a> */}
+          <Link activeClass="active" href="about" to="about" spy={true} smooth={true} offset={50} duration={50}>
+            About
+          </Link>
           {/* About
-          </Link> */}
           {/* <a href={props.about}>About</a> */}
         </li>
         <li className={classes.list_item}>
