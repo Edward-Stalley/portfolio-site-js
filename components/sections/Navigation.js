@@ -20,7 +20,7 @@ export default function Navigation(props) {
           {/* <a href="/#about">About</a> */}
           <Link
             activeClass="active"
-            href={"#about" ?? " "}
+            href={"../#about" ?? " "}
             to="about"
             spy={true}
             smooth={true}
@@ -35,7 +35,7 @@ export default function Navigation(props) {
         <li className={classes.list_item}>
           <div className={classes.dropdown}>
             {/* <a href="/#projects"> Projects</a> */}
-            <Link to="projects" href={"#projects" ?? " "} spy={true} smooth={true} offset={50} duration={50}>
+            <Link to="projects" href={"../#projects" ?? " "} spy={true} smooth={true} offset={50} duration={50}>
               Projects
             </Link>
             <button className={classes.dropbtn}>
