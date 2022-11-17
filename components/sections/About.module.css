@@ -82,16 +82,11 @@
 
 .about_img {
   display: flex;
-  min-width: 400px;
-  /* border: solid 1px white; */
+
   position: relative;
   align-items: center;
-  /* flex-direction: column; */
   justify-content: center;
-  /* padding: 80px; */
-  /* min-width: 300px; */
 }
-
 .about_text {
   /* position: relative; */
   display: flex;

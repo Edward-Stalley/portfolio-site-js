@@ -10,6 +10,7 @@ export default function Navigation(props) {
   return (
     // testing out tailwind css
     <div className={"sticky flex justify-end top-0 z-20 py-2 bg-black md:py-6  "}>
+      {/* <div className={"sticky  flex  justify-star "}> */}
       {/* <div className={classes.navbar}> */}
       <ul className={classes.list}>
         {/* {props.returnBtn && <li>Return to Home</li>} */}

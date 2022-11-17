@@ -52,16 +52,16 @@ export default function Contact() {
         <div className={classes.form_container}>
           {/* <div className={styles.shape_1}></div> */}
           <form onSubmit={handleSubmit} method="post" className={classes.form}>
-            <div className={classes.content}>
-              <div className={classes.contact_header}>
-                <div className={classes.contact_header_text}>
-                  <h1>Get in Touch!</h1>
-                </div>
-                <div className={classes.contact_header_image}>
-                  <Image src={require("/public/images/message.svg")} width={100} alt=" "></Image>
-                </div>
+            {/* <div className={classes.header}> */}
+            <div className={classes.contact_header}>
+              <div className={classes.contact_header_text}>
+                <h1>Get in Touch!</h1>
+              </div>
+              <div className={classes.contact_header_image}>
+                <Image src={require("/public/images/message.svg")} width={100} alt=" "></Image>
               </div>
             </div>
+            {/* </div> */}
             <div className={classes.content}>
               <label htmlFor="fullname">
                 Full name

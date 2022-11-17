@@ -48,9 +48,9 @@
 .form_container {
   /* background: linear-gradient(#d97b93 0%, #222 100%); */
   background: #181818;
-
-  position: relative;
-  max-width: 600px;
+  /* background: pink; */
+  /* position: relative; */
+  /* max-width: 600px; */
   border-radius: 8px;
   padding: 20px;
   /* border: 1px white solid; */
@@ -84,8 +84,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  gap: 1rem;
+  /* padding-left: 100px; */
+  /* gap: 1rem; */
   background: #181818;
 }
 
@@ -95,14 +95,14 @@
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 0.6px;
-  min-width: 300px;
+  /* min-width: 300px; */
   /* color: #181818; */
   /* padding: 20px; */
 }
 
 .form div {
   z-index: 1;
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 
 .form div:nth-of-type(odd) {
@@ -113,7 +113,7 @@
 
 .form div:nth-child(1) {
   color: white;
-  grid-column: 1/3;
+  grid-column: 1/4;
   margin-left: 10px;
   margin-bottom: 15px;
 }
@@ -132,25 +132,15 @@
 
 .form div:nth-child(10),
 .form div:nth-child(11) {
-  /* font-weight: 700; */
   letter-spacing: 0.5px;
-  /* padding: 20px; */
-  /* height: 40px; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* margin-top: 40px; */
-  /* grid-column: 1/2; */
   border-radius: 4px;
 }
 
 /* button container */
 .form div:nth-child(10) {
   display: flex;
-  /* background-color: #6e529d; */
   justify-content: flex-end;
   background-color: transparent;
-  /* justify-content: flex-start; */
   grid-column: 3/4;
 }
 
