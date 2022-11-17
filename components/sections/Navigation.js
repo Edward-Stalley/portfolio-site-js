@@ -26,10 +26,10 @@ export default function Navigation(props) {
         </li>
         <li className={classes.list_item}>
           <div className={classes.dropdown}>
-            <a href="/#projects"> Projects</a>
-            {/* <Link to="projects" spy={true} smooth={true} offset={50} duration={50}>
+            {/* <a href="/#projects"> Projects</a> */}
+            <Link to="projects" spy={true} smooth={true} offset={50} duration={50}>
               Projects
-            </Link> */}
+            </Link>
             <button className={classes.dropbtn}>
               <i className={classes.icon}></i>
             </button>
