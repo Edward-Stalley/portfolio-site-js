@@ -488,11 +488,11 @@
 @media only screen and (max-width: 768px) {
   .header {
     height: 200px;
-    margin-bottom: 6rem;
+    /* margin-bottom: 6rem; */
   }
   .header h1 {
     font-weight: 700;
-    font-size: 56px;
+    font-size: 64px;
   }
 
   .link_container {
