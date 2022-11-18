@@ -1,7 +1,10 @@
+.project_page {
+}
+
 .project_container {
   background: #181818;
   display: grid;
-  margin: 0 auto;
+  margin: auto;
   width: fit-content;
 
   /* padding: 1rem; */
@@ -14,7 +17,7 @@
   /* "description . ." */
   /* "description .  ." */
   /* "footer footer . "; */
-  grid-template-columns: 1fr 1fr 3fr;
+  grid-template-columns: 3fr 0.5rem 3fr;
 }
 
 /* @media only screen and (max-width: 800px) {
@@ -60,6 +63,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 2rem;
 
   /* display: flex; */
   /* align-items: flex-start; */
@@ -175,9 +179,12 @@
   grid-area: sidebar;
   display: flex;
   flex-direction: column;
+  /* grid-column: 1/3; */
   gap: 4em;
   padding: 2rem;
-  margin-top: 5rem;
+  margin-top: 4rem;
+  /* margin: 4rem 0 0rem 0rem; */
+  /* margin-left: 20px; */
 
   /* background-color: #333; */
 }
@@ -248,6 +255,7 @@
   /* background-color: pink; */
   padding: 2rem;
   display: flex;
+  margin: 2rem 2rem;
   align-items: center;
   justify-content: center;
 }
@@ -318,6 +326,7 @@
   height: fit-content;
   flex-direction: column;
   align-items: flex-start;
+  padding: 2rem;
   margin-bottom: 1rem;
 }
 

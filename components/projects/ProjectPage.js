@@ -61,7 +61,7 @@ export default function ProjectPage() {
   RenderList(development);
 
   return (
-    <div>
+    <div className={classes.project_page}>
       <div id={title} className={classes.project_container}>
         <div className={classes.navbar}>
           <Navigation />

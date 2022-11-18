@@ -64,7 +64,7 @@ export default function Contact() {
             {/* </div> */}
             <div className={classes.content}>
               <label htmlFor="fullname">
-                Full name
+                Name
                 {/* <span className="text-red-500">*</span> */}
               </label>
             </div>
