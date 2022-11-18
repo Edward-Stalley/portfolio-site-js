@@ -2,6 +2,8 @@
   background: #181818;
   display: grid;
   margin: 0 auto;
+  width: fit-content;
+
   /* padding: 1rem; */
   grid-template-areas:
     "navbar navbar navbar"
@@ -527,7 +529,6 @@
   .project_container {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    /* width: fit-content; */
 
     /* display: flex; */
     /* margin: 0 2rem; */
