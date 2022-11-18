@@ -2,7 +2,7 @@
   background: #181818;
   display: grid;
   gap: 5rem 1rem;
-  /* margin: 2rem 6rem; */
+  margin: 2rem auto;
   /* padding: 1rem; */
   grid-template-areas:
     "header development development"
@@ -29,7 +29,7 @@
 } */
 
 .main {
-  margin-bottom: 500px;
+  /* margin-bottom: 500px; */
 }
 
 .tagline_container {
@@ -248,7 +248,7 @@
 
 .development_alt .image_box {
   justify-content: center;
-  /* width: 220px; */
+  width: 220px;
   margin-top: 50px;
   border-radius: 10px;
   /* display: flex; */
@@ -349,7 +349,7 @@
   border-radius: 20px;
   padding: 0 40px 0px 40px;
   position: relative;
-  margin-top: 3rem;
+  margin: 2rem;
 }
 
 .mainText ul {
@@ -392,6 +392,11 @@
   border-radius: 20px;
 }
 
+.links_main_container {
+  display: flex;
+  justify-content: center;
+}
+
 .links ul {
   justify-content: center;
   align-items: center;
@@ -401,13 +406,6 @@
 
 .links a {
   /* text-transform: uppercase; */
-}
-
-.href {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
 .links::after {
@@ -489,6 +487,32 @@
   .header h1 {
     font-weight: 700;
     font-size: 48px;
+  }
+
+  .link_container {
+    transition: all 0.2s ease-in-out;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    /* min-width: 10rem; */
+    /* height: 10rem; */
+    align-items: center;
+  }
+  .sidebar {
+    /* justify-content: center; */
+  }
+
+  .links {
+    width: fit-content;
+    /* padding: 0; */
+  }
+
+  .links::after {
+    /* color: darkgoldenrod;
+    background-color: transparent;
+    transform: rotate(0deg);
+    top: 0; */
+    font-size: 50px;
   }
 
   .project_container {
