@@ -254,9 +254,9 @@ export default function ProjectPage() {
             <Image width="200" src={imageThree} alt=" "></Image>
           </div>
         </div> */}
-        <div className={classes.footer}>
+        {/* <div className={classes.footer}>
           <p>this is a footer</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

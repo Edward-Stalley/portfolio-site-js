@@ -443,8 +443,8 @@
 }
 
 .footer {
-  width: 100%;
-  background-color: #222;
+  /* width: 100%; */
+  background-color: blue;
   grid-area: footer;
 }
 
@@ -516,7 +516,7 @@
   }
 
   .project_container {
-    /* margin: 0 2rem; */
+    margin: 0 2rem;
     background: #181818;
     /* display: grid; */
     /* gap: 1rem 0;
@@ -529,8 +529,7 @@
       "description"
       "sidebar"
       "maintext"
-      "collection"
-      "footer";
+      "collection";
 
     grid-template-columns: 1fr;
   }
