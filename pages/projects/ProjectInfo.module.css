@@ -368,7 +368,7 @@
   color: white;
   display: flex;
   grid-area: maintext;
-  border: solid 1px white;
+  /* border: solid 1px white; */
   border-radius: 20px;
   padding: 0 40px 0px 40px;
   position: relative;
@@ -397,7 +397,7 @@
 }
 
 .mainText p {
-  border: solid 1px white;
+  /* border: solid 1px white; */
   color: #fff;
   padding: 20px;
 }
@@ -516,20 +516,17 @@
     font-size: 64px;
   }
 
-  /* .development_alt:after {
-    content: " ";
-    bottom: -2rem;
-    border-radius: 20px;
-    background-color: white;
-    height: 4px;
-    width: 30%;
-    border: solid 1px white;
+  .mainText {
+    /* background-color: #181818; */
+    color: white;
     display: flex;
-    position: absolute;
-  } */
-
-  .development_alt {
-    /* margin-bottom: 4rem; */
+    grid-area: maintext;
+    border: solid 2px white;
+    border-radius: 20px;
+    padding: 0 40px 0px 40px;
+    position: relative;
+    margin: 10rem 2rem;
+    font-size: 24px;
   }
 
   .link_container {
