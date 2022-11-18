@@ -91,7 +91,7 @@
   content: "  ";
   position: absolute;
   top: 60px;
-  width: 345px;
+  /* width: 345px; */
 
   border-top: 3px solid white;
 }
@@ -248,7 +248,7 @@
 
 .development_alt .image_box {
   justify-content: center;
-  width: 220px;
+  min-width: 220px;
   margin-top: 50px;
   border-radius: 10px;
   /* display: flex; */
@@ -270,7 +270,7 @@
   display: flex;
   gap: 2rem;
   flex-direction: column;
-  width: 200px;
+  min-width: 200px;
   /* padding: 5px; */
 }
 
@@ -516,9 +516,13 @@
   }
 
   .project_container {
-    margin: 0 2rem;
-    /* background: #181818; */
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     background-color: pink;
+    width: fit-content;
+    /* display: flex; */
+    /* margin: 0 2rem; */
+    /* background: #181818; */
     /* display: grid; */
     /* gap: 1rem 0;
     margin: 2rem 1rem; */
@@ -531,7 +535,5 @@
       "sidebar"
       "maintext"
       "collection";
-
-    grid-template-columns: 1fr;
   }
 }

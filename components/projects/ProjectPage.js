@@ -87,8 +87,6 @@ export default function ProjectPage() {
         <div className={classes.sidebar}>
           <div className={classes.links_main_container}>
             <div className={classes.links}>
-              {/* <div><h2>Links</h2></div> */}
-
               <div className={classes.href}>
                 <ul>
                   <li className={classes.link_container}>
@@ -191,9 +189,6 @@ export default function ProjectPage() {
           }
         >
           <div className={router.query.projectId != "Bike-Website" ? classes.dev_image_alt : classes.dev_image}>
-            {/* <div>
-              <Image className={classes.image} src={image} alt=" "></Image>
-            </div> */}
             {router.query.projectId === "Bike-Website" && (
               <div>
                 <div className={classes.image_big_container}>
@@ -220,8 +215,6 @@ export default function ProjectPage() {
                 </div>
               </div>
             )}
-
-            {/* {router.query.projectId != "Bike-Website" && <div></div>} */}
           </div>
         </div>
         {/* <div className={classes.project_description}>
