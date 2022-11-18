@@ -517,7 +517,8 @@
 
   .project_container {
     margin: 0 2rem;
-    background: #181818;
+    /* background: #181818; */
+    background-color: pink;
     /* display: grid; */
     /* gap: 1rem 0;
     margin: 2rem 1rem; */
