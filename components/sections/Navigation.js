@@ -9,8 +9,8 @@ import classes from "/components/sections/Navigation.module.css";
 export default function Navigation(props) {
   return (
     // testing out tailwind css
-    <div className={"sticky flex justify-end top-0 z-20 py-2 	 bg-black md:py-6  "}>
-      {/* <div className={"sticky  flex  justify-star "}> */}
+    <div className={"sticky flex lg:justify-end top-0 z-20 py-2  sm:justify-center bg-black md:py-6  "}>
+      {/* <div className={"sticky  flex  justify-star "}>   */}
       {/* <div className={classes.navbar}> */}
       <ul className={classes.list}>
         {/* {props.returnBtn && <li>Return to Home</li>} */}
@@ -59,7 +59,7 @@ export default function Navigation(props) {
           </div>
         </li>
         <li className={classes.list_item}>
-          <Link scroll={false} href="/contact">
+          <Link className={"bg:blue"} scroll={false} href="/contact">
             Contact
           </Link>
         </li>
@@ -67,11 +67,11 @@ export default function Navigation(props) {
         {/* <li className={classes.list_item}>
           <a href="#projects-section">Projects</a>
         </li> */}
-        <li className={classes.list_item}>
-          {/* <Link to="contact" spy={true} smooth={true} offset={50} duration={50}>
+        {/* <li className={classes.list_item}> */}
+        {/* <Link to="contact" spy={true} smooth={true} offset={50} duration={50}>
             Contact
           </Link> */}
-        </li>
+        {/* </li> */}
       </ul>
     </div>
   );
