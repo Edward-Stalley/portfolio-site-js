@@ -343,6 +343,7 @@
 
 .mainText {
   background-color: black;
+  color: white;
   display: flex;
   grid-area: maintext;
   border: solid 1px white;
