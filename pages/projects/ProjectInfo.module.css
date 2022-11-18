@@ -488,11 +488,28 @@
 @media only screen and (max-width: 768px) {
   .header {
     height: 200px;
-    /* margin-bottom: 6rem; */
+    position: relative;
+    margin-bottom: 2rem;
   }
   .header h1 {
     font-weight: 700;
     font-size: 64px;
+  }
+
+  /* .development_alt:after {
+    content: " ";
+    bottom: -2rem;
+    border-radius: 20px;
+    background-color: white;
+    height: 4px;
+    width: 30%;
+    border: solid 1px white;
+    display: flex;
+    position: absolute;
+  } */
+
+  .development_alt {
+    /* margin-bottom: 4rem; */
   }
 
   .link_container {
