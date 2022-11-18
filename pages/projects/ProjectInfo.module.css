@@ -261,6 +261,10 @@
 }
 
 .development_alt .image_box {
+  padding: 1px;
+  border: solid 1px white;
+  height: fit-content;
+
   justify-content: center;
   min-width: 220px;
   margin-top: 50px;
@@ -288,8 +292,14 @@
   /* padding: 5px; */
 }
 
+.image_box_2 div {
+  border: solid white 1px;
+  padding: 1px;
+}
+
 .image_box_2 div:nth-child(1) {
   margin-left: 60px;
+  border-radius: 10px;
 }
 
 .image_box_2 div:nth-child(2) {
@@ -363,6 +373,7 @@
   padding: 0 40px 0px 40px;
   position: relative;
   margin: 10rem 2rem;
+  font-size: 18px;
 }
 
 .mainText ul {
@@ -552,6 +563,11 @@
     flex-direction: column;
     align-items: flex-start;
     margin: 0 2rem 8rem 2rem;
+  }
+
+  .objective p {
+    background-color: #181818;
+    /* font-size: 18px; */
   }
 
   .project_container {
