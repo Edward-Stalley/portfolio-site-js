@@ -2,7 +2,7 @@
   background: blue;
   display: flex;
   justify-content: flex-end;
-
+  width: fit-content;
 } */
 
 /* @media only screen and (max-width: 600px) {

@@ -62,8 +62,10 @@ export default function ProjectPage() {
 
   return (
     <div>
-      <Navigation />
       <div id={title} className={classes.project_container}>
+        <div className={classes.navbar}>
+          <Navigation />
+        </div>
         <div>
           <div className={classes.header}>
             <h1>{newTitle}</h1>
@@ -229,6 +231,9 @@ export default function ProjectPage() {
           {/* <h3>Inspiration</h3> */}
           {/* <p>{development}</p> */}
           {RenderList(development)}
+        </div>
+        <div>
+          <div>{/* <p>Return to top</p> */}</div>
         </div>
         {/* <div className={classes.image_collection}>
           <div className={classes.image_collection_row_one}>
