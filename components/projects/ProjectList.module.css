@@ -34,30 +34,23 @@
   position: relative;
 }
 
+.project_text h1 {
+  text-align: center;
+}
+
 .project_text::after {
   content: " ";
   position: absolute;
-  /* bottom: -18px; */
-  /* top: -6rem; */
+  background-color: white;
+  border: solid white 1px;
+  height: 4px;
+  border-radius: 4px;
+  bottom: -2rem;
   left: 0;
   right: 0;
-  /* height: 0.5em; */
-  /* min-width: none; */
-  /* max-width: 200px; */
-  /* border-top: 2px solid white; */
-  /* z-index: -1; */
-  /*  */
-
-  content: " ";
-  position: absolute;
-  bottom: -18px;
-  /* left: 0; */
-  /* right: 0; */
-  margin: 4rem;
-  height: 0.5em;
-  min-width: none;
-  max-width: 200px;
-  border-top: 2px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
 }
 
 .card_container {
