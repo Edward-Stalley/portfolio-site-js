@@ -76,7 +76,7 @@
 }
 
 .title_about::after {
-  content: " ";
+  /* content: " "; */
   position: absolute;
   bottom: -18px;
   left: 0;
@@ -85,7 +85,6 @@
   min-width: none;
   max-width: 200px;
   border-top: 2px solid white;
-  /* z-index: -1; */
 }
 
 .about_img {
@@ -105,6 +104,9 @@
   min-width: 300px;
 }
 
+.title_about {
+  min-width: 210px;
+}
 .about_text h1 {
   font-size: 45px;
   font-weight: 700;
@@ -117,7 +119,7 @@
 
 .about {
   display: grid;
-  margin: 2rem;
+  margin: 1rem;
   gap: 2rem;
   height: 100vh;
   grid-template-columns: 1fr 1fr;
@@ -178,11 +180,45 @@
     display: none;
   }
 
+  .about_text {
+    /* position: relative; */
+    display: flex;
+    /* background-color: green; */
+    /* border: solid 1px white; */
+    /* text-align: center; */
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    min-width: 300px;
+  }
+
+  /* .title_about::after {
+    content: " ";
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+    right: 0;
+    height: 0.5em;
+    min-width: none;
+    max-width: 200px;
+    border-top: 2px solid white;
+  } */
+
+  .about_text h1 {
+    /* position: relative; */
+    /* display: flex; */
+    /* background-color: yellow; */
+    /* border: solid 1px white; */
+    text-align: center;
+    /* flex-direction: column;
+    justify-content: center; */
+    /* padding: 0 40px; */
+  }
   .logos {
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* background-color: aqua; */
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .logo {

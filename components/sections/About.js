@@ -32,8 +32,8 @@ export default function About() {
         </div>
         <main className={classes.main}>
           <div id="about" className={classes.about}>
-            <div>
-              <div className={classes.about_text}>
+            <div className={classes.about_text}>
+              <div>
                 <h1 className={classes.title_about}>About Me</h1>
                 <p>I&apos;m an Irish Web Developer currently living in Japan.</p>
               </div>
