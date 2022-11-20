@@ -89,7 +89,6 @@
 
 .about_img {
   display: flex;
-
   position: relative;
   align-items: center;
   justify-content: center;
@@ -142,7 +141,9 @@
   /* padding: 10px; */
 }
 
-.logos img {
+.logo {
+  /* border: 1px solid white; */
+
   /* width: 50px; */
 }
 
@@ -172,6 +173,7 @@
   .about {
     display: grid;
     grid-template-columns: 1fr;
+    text-align: center;
 
     /* gap: 20px; */
   }
@@ -192,17 +194,22 @@
     min-width: 300px;
   }
 
-  /* .title_about::after {
+  .title_about {
+    position: relative;
+  }
+
+  .title_about::after {
     content: " ";
     position: absolute;
     bottom: -18px;
-    left: 0;
-    right: 0;
+    /* left: 0; */
+    /* right: 0; */
+    margin: 4rem;
     height: 0.5em;
     min-width: none;
     max-width: 200px;
     border-top: 2px solid white;
-  } */
+  }
 
   .about_text h1 {
     /* position: relative; */
