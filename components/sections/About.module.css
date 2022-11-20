@@ -117,6 +117,7 @@
 
 .about {
   display: grid;
+  margin: 2rem;
   gap: 2rem;
   height: 100vh;
   grid-template-columns: 1fr 1fr;
@@ -134,13 +135,13 @@
 .logos {
   display: flex;
   align-items: center;
-  /* width: 350px; */
-  justify-content: space-between;
+  gap: 1rem;
+  justify-content: center;
   /* padding: 10px; */
 }
 
 .logos img {
-  width: 50px;
+  /* width: 50px; */
 }
 
 @media only screen and (max-width: 800px) {
@@ -165,10 +166,33 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .about {
+    display: grid;
     grid-template-columns: 1fr;
+
     /* gap: 20px; */
+  }
+
+  .startup_img {
+    display: none;
+  }
+
+  .logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: aqua; */
+    gap: 1rem;
+  }
+
+  .logo {
+    /* border: solid 1px white; */
+
+    display: flex;
+    height: 100px;
+    /* width: 100px; */
+    justify-content: center;
+    /* background-color: blueviolet; */
   }
 
   .main {

@@ -72,7 +72,7 @@
 }
 
 .header h1 {
-  border: solid 1px white;
+  /*border: solid 1px white; */
   padding: 20px;
   border-radius: 20px;
   font-weight: 700;
@@ -267,7 +267,7 @@
 
 .development_alt .image_box {
   padding: 1px;
-  border: solid 1px white;
+  /* border: solid 1px white; */
   height: fit-content;
 
   justify-content: center;
@@ -298,7 +298,7 @@
 }
 
 .image_box_2 div {
-  border: solid white 1px;
+  /* border: solid white 1px; */
   padding: 1px;
 }
 
@@ -369,7 +369,7 @@
 }
 
 .mainText {
-  background-color: black;
+  /* background-color: black; */
   color: white;
   display: flex;
   grid-area: maintext;
@@ -506,6 +506,7 @@
 .logos {
   display: flex;
   align-items: center;
+  /* gap: 1rem; */
   /* width: 350px; */
   justify-content: space-between;
 }
@@ -520,7 +521,7 @@
   }
   .header h1 {
     font-weight: 700;
-    font-size: 64px;
+    font-size: 74px;
   }
 
   .mainText {
@@ -528,7 +529,7 @@
     color: white;
     display: flex;
     grid-area: maintext;
-    border: solid 2px white;
+    /* border: solid 2px white; */
     border-radius: 20px;
     padding: 0 40px 0px 40px;
     position: relative;
@@ -566,7 +567,7 @@
   .objective {
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 2rem 8rem 2rem;
+    margin: 4rem 2rem 10rem 2rem;
   }
 
   .objective p {
