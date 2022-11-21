@@ -9,8 +9,8 @@ export default function About() {
     <>
       <div className={classes.container}>
         <div className={classes.landingPage}>
-          <div className={classes.image_container}>
-            {/* <Image
+          {/* <div className={classes.image_container}> */}
+          {/* <Image
               className={classes.image_style}
               src={require("/public/images/Kyoto-Shrine-1.jpg")}
               // alt={title}
@@ -20,10 +20,10 @@ export default function About() {
               width="100"
               layout="fill"
             ></Image> */}
-          </div>
+          {/* </div> */}
 
           <h1 className={classes.title}>
-            Hi, I&apos;m <span>Ed</span> Stalley
+            <span>Hi,</span> I&apos;m <span>Ed</span> Stalley
           </h1>
           <p className={classes.description}>
             Web Developer

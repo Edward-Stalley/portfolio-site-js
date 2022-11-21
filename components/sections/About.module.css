@@ -16,10 +16,7 @@
   /* margin-bottom: 300px; */
 }
 
-.title span {
-  /* color: linear-gradient(to bottom, #6e529d 0%, #d97b93 100%); */
-  /* color: var(--font-color-1); */
-  /* color: #d97b93; */
+.title span:nth-child(2) {
   color: #ffb6b6;
 }
 
@@ -35,6 +32,8 @@
 
 .title {
   /* background-color: black; */
+  /* display: flex; */
+  /* flex-direction: column; */
   padding: 20px;
   line-height: 1.15;
   font-size: 4rem;

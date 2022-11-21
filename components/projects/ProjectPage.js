@@ -33,15 +33,6 @@ export default function ProjectPage() {
     tagline,
   } = currentProject;
 
-  // function developmentToList(string) {
-  //   const list = string.split(".");
-  //   const newList = list.forEach((sentence) => {
-  //     return <li>{sentence}</li>;
-  //   });
-
-  //   return newList;
-  // }
-
   const newTitle = title.replace("-", " ");
 
   const RenderList = (string) => {
