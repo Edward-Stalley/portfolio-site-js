@@ -16,6 +16,7 @@ export default function ProjectItem(props) {
         <Card>
           <div className={classes.image_test}>
             <Image
+              className={classes.project_image}
               alt=" "
               // width={300}
               // height={300}
@@ -24,7 +25,7 @@ export default function ProjectItem(props) {
               src={
                 (props.title === "Flashcard-App" && require("/public/images/FlashcardApp-900.png")) ||
                 (props.title === "Dice-Game" && require("/public/images/DiceGame_2-900.png")) ||
-                (props.title === "Bike-Website" && require("/public/images/bicycle_site-2.png"))
+                (props.title === "Bike-Website" && require("/public/images/bicycle_site-3.png"))
               }
             />
           </div>

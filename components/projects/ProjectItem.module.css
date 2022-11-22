@@ -11,23 +11,30 @@
   border: 3px solid #eaeaea;
   border-radius: 10px;
   transition: all 0.6s ease-in-out;
-
+  /* align-items: center; */
+  /* justify-content: center; */
   /* transition: all color 0.15s ease, border-color 0.15s ease; */
-  min-width: 300px;
-  max-width: 300px;
+  /* max-width: 300px; */
+  /* max-height: 300px; */
+  /* max-height: 300px; */
+  /* max-width: 300px; */
 
   position: relative;
-  height: 300px;
+  /* height: 300px; */
   cursor: pointer;
 }
 
 .image_test {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
   filter: brightness(40%);
 
-  padding: 0.5rem;
-  border-radius: 4px;
+  /* padding: 0.5rem; */
+  /* border-radius: 4px; */
   /* background-image: url("/public/images/DiceGame_1-900.png"); */
-  /* height: 100px; */
+  max-height: 300px;
+  max-width: 300px;
   /* width: 100px; */
 
   /* background-color: thistle; */
@@ -57,12 +64,18 @@
   transform: scale(105%);
 }
 
+.content_container {
+  transition: all 0.6s ease-in-out;
+}
+
 .content_container :hover,
 .item:hover {
   background-color: pink;
+  /* background-color: whitesmoke; */
 }
 
 .image_container {
+  /* border-radius: 4px; */
   /* padding: 20px; */
   /* background-color: blue; */
   /* padding: 10px; */
@@ -80,7 +93,13 @@
   border: px solid #eaeaea;
 }
 
+.project_image {
+  border-radius: 8px;
+  background-color: violet;
+}
+
 .content_container {
+  transition: all 0.6s ease-in-out;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,7 +108,7 @@
   /* gap: 2px; */
   padding: 2px;
   /* border: 3px solid #eaeaea; */
-  border-radius: 8px;
+  /* border-radius: 8px; */
   color: #222;
 }
 
