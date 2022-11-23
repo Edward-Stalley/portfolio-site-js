@@ -81,8 +81,7 @@
 
 .card_title {
   position: absolute;
-  font-size: 26px;
-  font-weight: 800;
+
   height: fit-content;
   left: 0;
   right: 0;
@@ -90,16 +89,17 @@
   bottom: 0;
   text-align: center;
   margin: auto 0;
-  text-transform: uppercase;
-  padding: 20px;
-  border-radius: 4px;
-  transition: all 3s ease-in-out;
+  /* padding: 20px; */
+  /* border-radius: 4px; */
+  /* transition: all 3s ease-in-out; */
+}
 
-  /* background-color: transparent; */
-  /* color: #222; */
-  /* background-color: #222; */
-  /* font-size: 24px; */
+.card_title h1 {
+  text-transform: uppercase;
   letter-spacing: 0.5px;
+  color: white;
+  font-size: 26px;
+  font-weight: 800;
 }
 
 .card_title:hover {
