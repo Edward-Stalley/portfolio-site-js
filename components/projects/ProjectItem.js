@@ -25,9 +25,9 @@ export default function ProjectItem(props) {
                 <Image
                   className={classes.project_image}
                   alt=" "
-                  width="100%"
-                  height="100%"
-                  layout="fill"
+                  // width="100%"
+                  // height="100%"
+                  // layout="fill"
                   // objectFit="cover"
                   src={
                     (props.title === "Flashcard-App" && require("/public/images/Flashcard_Project_Image_2.png")) ||
