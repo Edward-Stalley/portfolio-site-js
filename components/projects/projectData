@@ -2,7 +2,7 @@ const projectData = [
 
     {
     id: "E.B-Flashcard-App",
-    title: "E.B Flashcards",
+    title: "E.B-Flashcards",
     image: require("/public/images/EB-Flashcards.png"),
     imageTwo: require("/public/images/EB-Flashcards.png"),
     imageThree: require("/public/images/EB-Flashcards.png"),
