@@ -21,15 +21,16 @@ const projectData = [
     image: require("/public/images/game-news.png"),
     imageTwo: require("/public/images/game-news.png"),
     imageThree: require("/public/images/game-news.png"),
-    tagline: "Review and Vocab Prep for Language Schools",
-    description: "Flashcard App",
+    tagline: "Stay up-to-date with gaming news!",
+    description: "Website Scraper",
     process: "process here",
-    objective: "To create a flashcard app  for my students so they can prepare and review vocab with ease.",
+    objective:
+      "To create an app that fetches the most recent news from an array of gaming websites and puts them all in one convenient place",
     development:
-      "As a language student I found myself spending more  hello time making flashcards than actually studying them. / I wished that my school had utilised some more modern approaches to studying. / Now, as a teacher I wanted to provide that service to my current students. / Utilising React on the frontend and MySql on the backend, I wanted to develop an app that took weekly vocab lists from a variety of classes and uploaded them into flashcards for students to access for both preperation and review. ",
-    tech: ["CSS", "HTML", "JS", "React", "MySQL"],
-    weblink: "https://flashcard-app-2022-version-2-0.vercel.app/",
-    github: "https://github.com/Edward-Stalley/Flashcard-App-2022-Version-2.0/tree/main",
+      "As a game enthisast I wanted an easy way to grab the headlines and check the content of a variety of websites easliy.",
+    tech: ["CSS", "HTML", "JS", "React", "MySQL", "tailwindCSS", "next.js"],
+    weblink: "https://gamesite-scraper.vercel.app/",
+    github: "https://github.com/Edward-Stalley/Website-Scraper/tree/main/article-scraper",
   },
   {
     id: "Flashcard-App",
