@@ -30,6 +30,7 @@ export default function ProjectItem(props) {
                   // layout="fill"
                   // objectFit="cover"
                   src={
+                    (props.title === "Game-News-Scraper" && require("/public/images/game-news.png")) ||
                     (props.title === "E.B-Flashcards" && require("/public/images/EB-Flashcards.png")) ||
                     (props.title === "Flashcard-App" && require("/public/images/Flashcard_Project_Image_2.png")) ||
                     (props.title === "Dice-Game" && require("/public/images/DiceGame_2-900.png")) ||
