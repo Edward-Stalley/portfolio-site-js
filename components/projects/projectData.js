@@ -9,9 +9,17 @@ const projectData = [
     description: "Flashcard App",
     process: "process here",
     objective: "To create a flashcard app  for my students so they can prepare and review vocab with ease.",
-    development:
-      "As a language student I found myself spending more  hello time making flashcards than actually studying them. / I wished that my school had utilised some more modern approaches to studying. / Now, as a teacher I wanted to provide that service to my current students. / Utilising React on the frontend and MySql on the backend, I wanted to develop an app that took weekly vocab lists from a variety of classes and uploaded them into flashcards for students to access for both preperation and review. ",
-    tech: ["CSS", "HTML", "JS", "React", "MySQL"],
+    development: `As a language student I found myself 
+    spending more time making flashcards than actually studying them.
+     When I was a student I wished that my language school had utilised some more modern approaches
+      to studying. Now, as a teacher I wanted to provide that service
+       to my current students. I am Utilising the React framework Next.js to do this.
+       With the buildt in backend api that Next.js provides I can connect
+        to a hosted Mysql database which I created.
+        I wanted to develop an app that took weekly vocab lists from a
+         variety of classes and uploaded them into flashcards for students
+         to access for both preperation and review. This app will be update weekly as the class vocabulary is decided. `,
+    tech: ["CSS", "HTML", "JS", "React", "MySQL", "next.js", "tailwind"],
     weblink: "https://flashcard-app-2022-version-2-0.vercel.app/",
     github: "https://github.com/Edward-Stalley/Flashcard-App-2022-Version-2.0/tree/main",
   },
@@ -28,7 +36,7 @@ const projectData = [
       "To create an app that fetches the most recent news from an array of gaming websites and puts them all in one convenient place",
     development:
       "As a game enthisast I wanted an easy way to grab the headlines and check the content of a variety of websites easliy.",
-    tech: ["CSS", "HTML", "JS", "React", "MySQL", "tailwindCSS", "next.js"],
+    tech: ["CSS", "HTML", "JS", "React", "tailwind", "next.js"],
     weblink: "https://gamesite-scraper.vercel.app/",
     github: "https://github.com/Edward-Stalley/Website-Scraper/tree/main/article-scraper",
   },
@@ -43,7 +51,7 @@ const projectData = [
     process: "process here",
     objective: "To create a flashcard app  for my students so they can prepare and review vocab with ease.",
     development:
-      "As a language student I found myself spending more  hello time making flashcards than actually studying them. / I wished that my school had utilised some more modern approaches to studying. / Now, as a teacher I wanted to provide that service to my current students. / Utilising React on the frontend and MySql on the backend, I wanted to develop an app that took weekly vocab lists from a variety of classes and uploaded them into flashcards for students to access for both preperation and review. ",
+      "This was my first attempt at a flashcard app. I have put it on the website to show my improvements over the span of a few months. Please see the E.B Flashcards for the newest verison of this App. ",
     tech: ["CSS", "HTML", "JS", "React", "MySQL"],
     weblink: "https://flashcards-1-2-baeu.vercel.app/",
     github: "https://github.com/Edward-Stalley/Flashcards-1.2",
@@ -62,26 +70,26 @@ const projectData = [
 
     process: "process here",
     tech: ["JS", "React", "CSS"],
-    weblink: "https://flashcards-1-2-baeu.vercel.app/",
-    github: "https://github.com/Edward-Stalley/Flashcards-1.2",
+    weblink: "https://dice-game-mocha-zeta.vercel.app/",
+    github: "https://github.com/Edward-Stalley/Dice-Game/tree/main",
   },
-  {
-    id: "Bike-Website",
-    title: "Bike-Website",
-    image: require("/public/images/bicycle_site-2.png"),
-    imageTwo: require("/public/images/bicycle_site-4.png"),
-    imageThree: require("/public/images/bicycle_site-3.png"),
-    description: "Bicycle Tour Website",
-    objective: "To create a Landing Page for a bicycle tour company operating in Japan.",
-    process: "This is a bicycle website",
-    development:
-      "I have always been interested in cycling. I cycled around Japan for 6 months and had many unforgettable experiences. During that time, the Inland Seto Sea in particular really stood out to me - so I decided to do a mockup cycle tour website for the area.",
-    tagline: "Review and Vocab Prep for Language Schools",
+  // {
+  //   id: "Bike-Website",
+  //   title: "Bike-Website",
+  //   image: require("/public/images/bicycle_site-2.png"),
+  //   imageTwo: require("/public/images/bicycle_site-4.png"),
+  //   imageThree: require("/public/images/bicycle_site-3.png"),
+  //   description: "Bicycle Tour Website",
+  //   objective: "To create a Landing Page for a bicycle tour company operating in Japan.",
+  //   process: "This is a bicycle website",
+  //   development:
+  //     "I have always been interested in cycling. I cycled around Japan for 6 months and had many unforgettable experiences. During that time, the Inland Seto Sea in particular really stood out to me - so I decided to do a mockup cycle tour website for the area.",
+  //   tagline: "Review and Vocab Prep for Language Schools",
 
-    tech: ["CSS", "HTML"],
-    weblink: "https://flashcards-1-2-baeu.vercel.app/",
-    github: "https://github.com/Edward-Stalley/Flashcards-1.2",
-  },
+  //   tech: ["CSS", "HTML"],
+  //   weblink: "https://flashcards-1-2-baeu.vercel.app/",
+  //   github: "https://github.com/Edward-Stalley/Flashcards-1.2",
+  // },
 ];
 
 export default projectData;

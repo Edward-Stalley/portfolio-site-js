@@ -63,9 +63,9 @@ export default function Navigation(props) {
               <Link scroll={false} href={`../projects/Dice-Game`}>
                 Dice Game
               </Link>
-              <Link scroll={false} href={`../projects/Bike-Website`}>
+              {/* <Link scroll={false} href={`../projects/Bike-Website`}>
                 Bicycle Website
-              </Link>
+              </Link> */}
             </div>
           </div>
         </li>
