@@ -101,11 +101,11 @@ export default function UpdatedProjectPage() {
           </div>{" "}
           <div className=" flex flex-col">
             <div className="text-6xl font-bold text-teal-100 pb-4">Objective</div>
-            <div className="p-2 text-3xl font-semi-bold ">{objective}</div>
+            <div className="p-2 text-slate-100 text-3xl font-semi-bold ">{objective}</div>
           </div>
           <div className=" flex flex-col">
             <div className="text-6xl font-bold text-teal-100 pb-4">Inspiration</div>
-            <div className=" bg-teal-100 text-slate-900 text-xl rounded-xl p-5">{development}</div>
+            <div className="  text-slate-100 text-3xl rounded-xl ">{development}</div>
           </div>
           <div>
             <div className="text-6xl font-bold text-teal-100 pb-4 ">Images</div>
