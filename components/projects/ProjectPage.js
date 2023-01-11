@@ -181,7 +181,9 @@ export default function UpdatedProjectPage() {
           </div>
           <div className=" flex flex-col">
             <div className="text-6xl font-bold text-teal-100 pb-4">Inspiration</div>
-            <div className="  text-slate-100 text-3xl rounded-xl ">{development}</div>
+            <div className="  text-slate-100 sm:text-2xl  md:text-2xl xl:text-3xl text-1xl rounded-xl ">
+              {development}
+            </div>
           </div>
           <div>
             <div className="text-6xl font-bold text-teal-100 pb-4 ">Images</div>
