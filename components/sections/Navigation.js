@@ -9,9 +9,9 @@ import classes from "/components/sections/Navigation.module.css";
 export default function Navigation(props) {
   return (
     // testing out tailwind css
-    <div className={"sticky flex lg:justify-end top-0 z-20 py-2  sm:justify-center bg-black md:py-6  "}>
-      {/* <div className={"sticky  flex  justify-star "}>   */}
-      {/* <div className={classes.navbar}> */}
+    <div
+      className={"sticky flex  lg:justify-end top-0 z-20 py-2 justify-center sm:justify-center md:py-6 bg-slate-100 "}
+    >
       <ul className={classes.list}>
         {/* {props.returnBtn && <li>Return to Home</li>} */}
         <li className={classes.list_item}>
@@ -51,9 +51,12 @@ export default function Navigation(props) {
               <i className={classes.icon}></i>
             </button>
             <div className={classes.dropdown_content}>
-              {/* <Link to={`Flashcard-App`}>
-              <a>Flashcard App</a>
-              </Link> */}
+              <Link scroll={false} href={`../projects/E.B-Flashcards`}>
+                E.B Flashcards
+              </Link>{" "}
+              <Link scroll={false} href={`../projects/Game-News-Scraper`}>
+                Game News Scraper
+              </Link>
               <Link scroll={false} href={`../projects/Flashcard-App`}>
                 Flashcard App
               </Link>

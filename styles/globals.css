@@ -31,6 +31,9 @@
   --nav-items: #0e2534;
 
   --skin-color: #ffb6b6;
+
+  /* for tailwind */
+  --pink: pink;
 }
 
 html {

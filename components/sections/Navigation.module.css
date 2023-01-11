@@ -1,5 +1,4 @@
 .navbar {
-  background: blue;
   display: flex;
   justify-content: flex-end;
   width: fit-content;
@@ -23,7 +22,8 @@
 }
 
 .list_item {
-  color: white;
+  /* color: white; */
+  color: #222;
   padding: 10px;
   display: flex;
   justify-content: center;

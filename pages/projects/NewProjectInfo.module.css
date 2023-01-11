@@ -1,0 +1,77 @@
+.project_container {
+  background: #181818;
+  display: grid;
+  margin: auto;
+  width: 100%;
+}
+
+.content_container {
+  background-color: pink;
+}
+
+.header {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  position: relative;
+
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  grid-area: links;
+  border: solid 1px white;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  background: #181818;
+  border-radius: 20px;
+  /* margin-top: 80px; */
+}
+
+.links ul {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.links a {
+  /* text-transform: uppercase; */
+}
+
+.links::after {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background: #181818;
+  content: "Links ";
+  top: -4rem;
+  left: -4rem;
+  transform: rotate(-30deg);
+  color: #c0fff4;
+  font-size: 64px;
+  font-weight: 800;
+  /* text-transform: uppercase; */
+}
+
+.link_container {
+  transition: all 0.2s ease-in-out;
+  justify-content: center;
+  display: flex;
+  min-width: 150px;
+  height: 150px;
+  align-items: center;
+}
+
+.link_container:hover {
+  background-color: #333;
+  border-radius: 20px;
+
+  /* margin: 5px; */
+}
+.href h3 {
+  margin: 20px 0 20px 0;
+}

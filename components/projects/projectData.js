@@ -75,7 +75,7 @@ const projectData = [
     objective: "To create a Landing Page for a bicycle tour company operating in Japan.",
     process: "This is a bicycle website",
     development:
-      "As both a language student I found myself spending more time making flashcards than actually studying them. /  I wished that my school had utilised some more modern approaches to studying. /  Utilising React on the frontend and MySql on I wanted to develop an app that took weekly vocab lists from a variety of classes and uploaded them into flashcards for students to access for both preperation and review.",
+      "I have always been interested in cycling. I cycled around Japan for 6 months and had many unforgettable experiences. During that time, the Inland Seto Sea in particular really stood out to me - so I decided to do a mockup cycle tour website for the area.",
     tagline: "Review and Vocab Prep for Language Schools",
 
     tech: ["CSS", "HTML"],

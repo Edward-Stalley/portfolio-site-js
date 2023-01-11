@@ -120,7 +120,7 @@
 
 .about {
   display: grid;
-  margin: 1rem;
+  margin: 2rem;
   gap: 2rem;
   margin-bottom: 10rem;
   /* height: 100vh; */
@@ -182,7 +182,9 @@
   }
 
   .startup_img {
-    display: none;
+    /* display: none; */
+    margin: 2rem;
+    padding-bottom: 2rem;
   }
 
   .about_text {
@@ -243,6 +245,7 @@
     grid-template-columns: 1fr 1fr;
     /* background-color: aqua; */
     gap: 2rem;
+    margin: 2rem;
   }
 
   .logo {

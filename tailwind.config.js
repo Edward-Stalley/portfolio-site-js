@@ -13,7 +13,13 @@ module.exports = {
 
       xl: "1280px",
     },
-    extend: {},
+    extend: {
+      colors: {
+        pink: {
+          100: "#FFC0CB",
+        },
+      },
+    },
   },
   plugins: [],
 };
