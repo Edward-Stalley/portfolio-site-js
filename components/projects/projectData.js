@@ -33,9 +33,9 @@ const projectData = [
     description: "Website Scraper",
     process: "process here",
     objective:
-      "To create an app that fetches the most recent news from an array of gaming websites and puts them all in one convenient place",
+      "To create an app that fetches the most recent news from various gaming websites and puts them all in one convenient place.",
     development:
-      "As a game enthisast I wanted an easy way to grab the headlines and check the content of a variety of websites easliy.",
+      "As a game enthisast I wanted an easy way to grab the headlines and check the content of a variety of websites. I am utilising puppetter. I got it running on node.js on the backend and then decided to use the api provided by next.js. Both ways are viewable in the code on github.  I plan to update this app so that the content will all be viewable from this app without the need to go the article link to read the text.",
     tech: ["CSS", "HTML", "JS", "React", "tailwind", "next.js"],
     weblink: "https://gamesite-scraper.vercel.app/",
     github: "https://github.com/Edward-Stalley/Website-Scraper/tree/main/article-scraper",
