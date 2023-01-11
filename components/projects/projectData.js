@@ -13,8 +13,8 @@ const projectData = [
     spending more time making flashcards than actually studying them.
      When I was a student I wished that my language school had utilised some more modern approaches
       to studying. Now, as a teacher I wanted to provide that service
-       to my current students. I am Utilising the React framework Next.js to do this.
-       With the buildt in backend api that Next.js provides I can connect
+       to my current students. I am utilising the React framework Next.js to do this.
+       With the built in backend api that Next.js provides I can connect
         to a hosted Mysql database which I created.
         I wanted to develop an app that took weekly vocab lists from a
          variety of classes and uploaded them into flashcards for students
