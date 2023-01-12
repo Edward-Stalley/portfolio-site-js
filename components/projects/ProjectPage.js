@@ -200,9 +200,10 @@ export default function UpdatedProjectPage() {
                 </div>
               </div>
             ) : (
-              <div id="images" className=" rounded-xl gap-2 grid grid-cols-2 mb-10 py-2">
+              <div id="images" className=" rounded-xl  gap-2 grid grid-cols-2 mb-10 py-2">
                 <Image className="rounded-xl " src={image} />
-                <Image className="rounded-xl" src={imageTwo} />
+                <Image className="rounded-xl " src={imageTwo} />
+
                 <Image className="rounded-xl" src={imageThree} />
               </div>
             )}

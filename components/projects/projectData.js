@@ -18,7 +18,7 @@ const projectData = [
         to a hosted Mysql database which I created.
         I wanted to develop an app that took weekly vocab lists from a
          variety of classes and uploaded them into flashcards for students
-         to access for both preperation and review. This app will be update weekly as the class vocabulary is decided. `,
+         to access for both preperation and review. This app will be updated weekly as the class vocabulary is decided. `,
     tech: ["CSS", "HTML", "JS", "React", "MySQL", "next.js", "tailwind"],
     weblink: "https://flashcard-app-2022-version-2-0.vercel.app/",
     github: "https://github.com/Edward-Stalley/Flashcard-App-2022-Version-2.0/tree/main",

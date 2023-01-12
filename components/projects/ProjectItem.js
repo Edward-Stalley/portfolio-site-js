@@ -4,21 +4,21 @@ import Card from "../ui/Card";
 import classes from "../projects/ProjectItem.module.css";
 import Image from "next/image";
 
-export default function ProjectItem(props) {
+export default function ProjectItem({ title }) {
   const [hover, setHover] = React.useState(false);
 
   // console.log(props.title);
   // const dynamicHREF = "../projects" + `${props.title}`;
-
+  const formattedTitle = title.replaceAll("-", " ");
   return (
     <div className={classes.card}>
       <li className={classes.item}>
         <Card>
-          <Link href={`../projects/${props.title}`}>
+          <Link href={`../projects/${title}`}>
             <div className={classes.card_content}>
               <div className={classes.content_container}>
                 <div className={classes.card_title}>
-                  <h1>{props.title}</h1>
+                  <h1 className="flex  justify-center p-2">{formattedTitle}</h1>
                 </div>
               </div>
               <div className={classes.image_test}>
@@ -30,11 +30,11 @@ export default function ProjectItem(props) {
                   // layout="fill"
                   // objectFit="cover"
                   src={
-                    (props.title === "Game-News-Scraper" && require("/public/images/game-news.png")) ||
-                    (props.title === "E.B-Flashcards" && require("/public/images/EB-Flashcards.png")) ||
-                    (props.title === "Flashcard-App" && require("/public/images/Flashcard_Project_Image_2.png")) ||
-                    (props.title === "Dice-Game" && require("/public/images/DiceGame_2-900.png")) ||
-                    (props.title === "Bike-Website" && require("/public/images/bicycle_site-3.png"))
+                    (title === "Game-News-Scraper" && require("/public/images/game-news.png")) ||
+                    (title === "E.B-Flashcards" && require("/public/images/EB-Flashcards.png")) ||
+                    (title === "Flashcard-App" && require("/public/images/Flashcard_Project_Image_2.png")) ||
+                    (title === "Dice-Game" && require("/public/images/DiceGame_2-900.png")) ||
+                    (title === "Bike-Website" && require("/public/images/bicycle_site-3.png"))
                   }
                 />
               </div>
