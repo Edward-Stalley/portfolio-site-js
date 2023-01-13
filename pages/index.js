@@ -13,7 +13,6 @@ export default function Homepage() {
   console.log(returnBtn);
 
   return (
-    // <div className="text-3xl font-bold underline">
     <div className={classes.container}>
       <Navigation returnBtn={returnBtn} />
       <About />

@@ -7,7 +7,7 @@ import Image from "next/future/image";
 import projectData from "/components/projects/projectData";
 import Navigation from "/components/sections/Navigation";
 
-export default function UpdatedProjectPage() {
+export default function ProjectPage() {
   const router = useRouter();
   console.log(`this is the router ${router.query.projectId}`);
 
@@ -58,9 +58,9 @@ export default function UpdatedProjectPage() {
           <Navigation />
         </div>
         <div className="flex justify-center items-center mb-5 mt-10 mx-20  ">
-          <h1 className="text-7xl text-pink-100 font-bold  b">{newTitle}</h1>
+          <h1 className="text-7xl text-pink-100 font-bold ">{newTitle}</h1>
         </div>
-        <div className="flex flex-col justify-center mb-32 md:mb-10 ">
+        <div className="flex flex-col justify-center mb-40 md:mb-10 ">
           <div className="text-1xl text-slate-100 pb-2 flex justify-center">
             <h2>Technologies Utilised</h2>
           </div>
@@ -136,7 +136,7 @@ export default function UpdatedProjectPage() {
           </div>
         </div>
 
-        <div className="grid px-10 grid-cols-1 sm:grid-cols-1 gap-20 md:m-20 md:grid-cols-2 xl:grid-cols-2 ">
+        <div className="grid  px-10 grid-cols-1 sm:grid-cols-1 gap-20 md:m-20 md:grid-cols-2 xl:grid-cols-2 ">
           <div className={"flex justify-center items-center mb-20 "}>
             <div className={classes.links}>
               <div className={classes.href}>

@@ -10,7 +10,9 @@ export default function Navigation(props) {
   return (
     // testing out tailwind css
     <div
-      className={"sticky flex  lg:justify-end top-0 z-20 py-2 justify-center sm:justify-center md:py-6 bg-slate-100 "}
+      className={
+        "sticky flex  w-full lg:justify-end top-0 z-20 py-2 justify-center sm:justify-center md:py-6 bg-slate-100 "
+      }
     >
       <ul className={classes.list}>
         {/* {props.returnBtn && <li>Return to Home</li>} */}

@@ -48,11 +48,11 @@
   flex-direction: column;
   background: #181818;
   content: "Links ";
-  top: -4rem;
-  left: -4rem;
+  top: -2rem;
+  left: -2rem;
   transform: rotate(-30deg);
   color: #c0fff4;
-  font-size: 64px;
+  font-size: 32px;
   font-weight: 800;
   /* text-transform: uppercase; */
 }
@@ -61,8 +61,10 @@
   transition: all 0.2s ease-in-out;
   justify-content: center;
   display: flex;
-  min-width: 150px;
-  height: 150px;
+  padding: 10px;
+  /* min-width: 100px; */
+  /* width: 100%; */
+  /* height: 150px; */
   align-items: center;
 }
 
