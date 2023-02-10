@@ -41,7 +41,7 @@ export default function Contact() {
 
       <div className={classes.contact_form}>
         <div className={classes.form_container}>
-          <form className={classes.form} action="https://formsubmit.co/stalleye@tcd.ie" method="POST">
+          <form className={classes.form} action="https://formsubmit.co/af149529155779becdfea32ee80bea70" method="POST">
             {/* <input type="text" name="name" required>
      <input type="email" name="email" required>
      <button type="submit">Send</button> */}
