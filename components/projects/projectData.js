@@ -8,7 +8,8 @@ const projectData = [
     tagline: "Review and Vocab Prep for Language Schools",
     description: "Flashcard App",
     process: "process here",
-    objective: "To create a flashcard app  for my students so they can prepare and review vocab with ease.",
+    objective:
+      "To create a flashcard app  for the students of a Kyoto based English School so they can prepare and review vocabulary with ease.",
     development: `As a language student I found myself 
     spending more time making flashcards than actually studying them.
      When I was a student I wished that my language school had utilised some more modern approaches
@@ -19,7 +20,7 @@ const projectData = [
         I wanted to develop an app that took weekly vocab lists from a
          variety of classes and uploaded them into flashcards for students
          to access for both preperation and review. This app will be updated weekly as the class vocabulary is decided. `,
-    tech: ["CSS", "HTML", "JS", "React", "MySQL", "next.js", "tailwind"],
+    tech: ["CSS", "HTML", "JS", "React", "MySQL", "next.js", "tailwind", "AWS"],
     weblink: "https://flashcard-app-2022-version-2-0.vercel.app/",
     github: "https://github.com/Edward-Stalley/Flashcard-App-2022-Version-2.0/tree/main",
     course: false,
@@ -103,7 +104,7 @@ const projectData = [
     description: "A Landing Page for a Meal Planning Website",
     objective: "To gain a better understanding of HTML, and CSS.",
     development:
-      "This website landing page game was part of an online course I took to learn CSS and web design . I built it from the ground up which helped me to gain a better understanding of CSS concepts such as grid and flex as well as design and style concepts such as complimentary color, positioning, and visual hierarchies.",
+      "This website landing page game was part of an online course I took to learn CSS and web design . I built it from the ground up which helped me to gain a better understanding of CSS concepts such as grid and flex as well as design and style concepts such as complimentary color, positioning,and visual hierarchies.",
     tagline: "Review and Vocab Prep for Language Schools",
 
     process: "process here",
@@ -116,9 +117,9 @@ const projectData = [
   {
     id: "Guessing-Game",
     title: "Guessing-Game",
-    image: require("/public/images/Number-Game-1.png"),
-    imageTwo: require("/public/images/Number-Game-1.png"),
-    imageThree: require("/public/images/Number-Game-1.png"),
+    image: require("/public/images/Guessing-Game-2.png"),
+    imageTwo: require("/public/images/Guessing-Game-3.png"),
+    imageThree: require("/public/images/Guessing-Game-1.png"),
     description: "A Number Guessing Game",
     objective: "To gain a better understanding of HTML and Javascript",
     development: "This guessing game was one of my first javascript projects.",
