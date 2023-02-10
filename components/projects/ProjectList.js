@@ -24,7 +24,7 @@ export default function ProjectList() {
         <div className={classes.card_container}>
           <div onClick={toggleClick} className={classes.project_cards}>
             {projects.map((project) =>
-              !project.course ? (
+              !project.course && !project.oldProject ? (
                 <ProjectItem
                   isClicked={click}
                   key={project.id}
@@ -59,6 +59,29 @@ export default function ProjectList() {
               ) : (
                 ""
               )
+            )}
+          </div>
+        </div>
+      </div>
+
+      <div id="projects" className={classes.projects_container}>
+        <div className={classes.project_text}>
+          <h2>Older Projects</h2>
+        </div>
+        <div className={classes.card_container}>
+          <div onClick={toggleClick} className={classes.project_cards}>
+            {projects.map(
+              (project) =>
+                project.oldProject && (
+                  <ProjectItem
+                    isClicked={click}
+                    key={project.id}
+                    id={project.id}
+                    title={project.title}
+                    content={project.content}
+                    image={project.image}
+                  />
+                )
             )}
           </div>
         </div>

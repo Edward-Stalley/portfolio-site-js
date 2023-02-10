@@ -59,18 +59,21 @@ export default function Navigation(props) {
               <Link scroll={false} href={`../projects/Game-News-Scraper`}>
                 Game News Scraper
               </Link>
+              <Link scroll={false} href={`../projects/Dice-Game`}>
+                Dice Game
+              </Link>
+              <Link scroll={false} href={`../projects/Bankist-App`}>
+                Bankist
+              </Link>
               <Link scroll={false} href={`../projects/Omni-Food-Site`}>
                 Omni Food
               </Link>
               {/* <Link scroll={false} href={`../projects/Flashcard-App`}>
                 Flashcard App
               </Link> */}
-              <Link scroll={false} href={`../projects/Dice-Game`}>
-                Dice Game
-              </Link>
-              <Link scroll={false} href={`../projects/Guessing-Game`}>
+              {/* <Link scroll={false} href={`../projects/Guessing-Game`}>
                 Guessing Game
-              </Link>
+              </Link> */}
               {/* <Link scroll={false} href={`../projects/Bike-Website`}>
                 Bicycle Website
               </Link> */}

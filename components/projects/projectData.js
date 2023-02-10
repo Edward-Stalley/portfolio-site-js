@@ -129,7 +129,27 @@ const projectData = [
     tech: ["JS", "HTML", "CSS"],
     weblink: "https://number-guessing-game-iota.vercel.app/",
     github: "https://github.com/Edward-Stalley/Dice-Game/tree/main",
-    course: true,
+    course: false,
+    oldProject: true,
+  },
+
+  {
+    id: "Matching-Game",
+    title: "Matching-Game",
+    image: require("/public/images/Guessing-Game-2.png"),
+    imageTwo: require("/public/images/Guessing-Game-3.png"),
+    imageThree: require("/public/images/Guessing-Game-1.png"),
+    description: "A Card Matching Game",
+    objective: "To gain a better understanding of HTML and Javascript",
+    development: "This guessing game was one of my first javascript projects.",
+    tagline: "Review and Vocab Prep for Language Schools",
+
+    process: "process here",
+    tech: ["JS", "HTML", "CSS"],
+    weblink: "https://card-matching-game-three.vercel.app/",
+    github: "https://github.com/Edward-Stalley/Dice-Game/tree/main",
+    course: false,
+    oldProject: true,
   },
 
   // {
