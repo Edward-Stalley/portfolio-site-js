@@ -201,10 +201,16 @@ export default function ProjectPage() {
               </div>
             ) : (
               <div id="images" className=" rounded-xl  gap-2 grid grid-cols-2 mb-10 py-2">
-                <Image className="rounded-xl " src={image} />
-                <Image className="rounded-xl " src={imageTwo} />
+                <div className="flex   ">
+                  <Image width={300} height={300} className="rounded-xl " src={image} />
+                </div>
 
-                <Image className="rounded-xl" src={imageThree} />
+                <div className="flex ">
+                  <Image width={300} height={300} className="rounded-xl" src={imageThree} />
+                </div>
+                <div className=" flex">
+                  <Image width={300} height={300} className="rounded-xl " src={imageTwo} />
+                </div>
               </div>
             )}
           </div>

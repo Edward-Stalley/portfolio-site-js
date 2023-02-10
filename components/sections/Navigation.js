@@ -59,9 +59,12 @@ export default function Navigation(props) {
               <Link scroll={false} href={`../projects/Game-News-Scraper`}>
                 Game News Scraper
               </Link>
-              <Link scroll={false} href={`../projects/Flashcard-App`}>
-                Flashcard App
+              <Link scroll={false} href={`../projects/Omni-Food-Site`}>
+                Omni Food
               </Link>
+              {/* <Link scroll={false} href={`../projects/Flashcard-App`}>
+                Flashcard App
+              </Link> */}
               <Link scroll={false} href={`../projects/Dice-Game`}>
                 Dice Game
               </Link>

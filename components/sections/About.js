@@ -35,7 +35,7 @@ export default function About() {
           <div className={classes.about_text}>
             <div className={classes.title_about}>
               <h1>About Me</h1>
-              <p>I&apos;m an Irish Web Developer currently living in Japan.</p>
+              <p>I&apos;m an Irish web developer based in Kyoto, Japan.</p>
             </div>
           </div>
           {/* <div className={classes.images_container}> */}

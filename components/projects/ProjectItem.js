@@ -25,15 +25,18 @@ export default function ProjectItem({ title }) {
                 <Image
                   className={classes.project_image}
                   alt=" "
-                  // width="100%"
-                  // height="100%"
+                  width="300%"
+                  height="300%"
                   // layout="fill"
-                  // objectFit="cover"
+                  objecFit="cover"
                   src={
-                    (title === "Game-News-Scraper" && require("/public/images/game-news.png")) ||
+                    (title === "Game-News-Scraper" && require("/public/images/Game-News-Scraper-1.png")) ||
                     (title === "E.B-Flashcards" && require("/public/images/EB-Flashcards.png")) ||
                     (title === "Flashcard-App" && require("/public/images/Flashcard_Project_Image_2.png")) ||
+                    (title === "Omni-Food-Site" && require("/public/images/Omni-4.png")) ||
                     (title === "Dice-Game" && require("/public/images/DiceGame_2-900.png")) ||
+                    (title === "Guessing-Game" && require("/public/images/Number-Game-1.png")) ||
+                    (title === "Bankist-App" && require("/public/images/Bankist-1.png")) ||
                     (title === "Bike-Website" && require("/public/images/bicycle_site-3.png"))
                   }
                 />
