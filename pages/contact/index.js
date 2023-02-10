@@ -135,9 +135,9 @@ export default function Contact() {
                 <input
                   className={classes.btn}
                   type="submit"
-                  onClick={(e) => {
-                    handleSubmit(e);
-                  }}
+                  // onClick={(e) => {
+                  //   handleSubmit(e);
+                  // }}
                 />
               </div>
             </div>
