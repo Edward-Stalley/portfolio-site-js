@@ -28,7 +28,7 @@ export default function ProjectItem({ title }) {
                   width="300%"
                   height="300%"
                   // layout="fill"
-                  objecFit="cover"
+                  objecfit="cover"
                   src={
                     (title === "Game-News-Scraper" && require("/public/images/Game-News-Scraper-1.png")) ||
                     (title === "E.B-Flashcards" && require("/public/images/EB-Flashcards.png")) ||
