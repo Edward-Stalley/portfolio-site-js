@@ -63,7 +63,7 @@ export default function ProjectList() {
           </div>
         </div>
       </div>
-
+      {/* 
       <div id="projects" className={classes.projects_container}>
         <div className={classes.project_text}>
           <h2>Old Projects</h2>
@@ -72,7 +72,8 @@ export default function ProjectList() {
           <div onClick={toggleClick} className={classes.project_cards}>
             {projects.map(
               (project) =>
-                project.oldProject && (
+                project.oldProject &&
+                project.show && (
                   <ProjectItem
                     isClicked={click}
                     key={project.id}
@@ -85,7 +86,7 @@ export default function ProjectList() {
             )}
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

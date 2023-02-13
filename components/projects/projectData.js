@@ -131,6 +131,7 @@ const projectData = [
     github: "https://github.com/Edward-Stalley/Dice-Game/tree/main",
     course: false,
     oldProject: true,
+    show: false,
   },
 
   {
@@ -150,6 +151,7 @@ const projectData = [
     github: "https://github.com/Edward-Stalley/Dice-Game/tree/main",
     course: false,
     oldProject: true,
+    show: false,
   },
 
   // {
