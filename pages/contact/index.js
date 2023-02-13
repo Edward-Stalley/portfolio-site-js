@@ -16,27 +16,26 @@ export default function Contact() {
     e.preventDefault();
     console.log("sending");
 
-    // OLD METHOD - NOW I am using "formsubmit.co" for the moment 
-
+    // OLD METHOD - NOW I am using a form site for the moment
 
     // let data = { fullname, email, subject, message };
 
-  //   fetch("/api/mail", {
-  //     method: "POST",
-  //     headers: { Accept: "applicaton/json, text/plain, */*", "Content-Type": "application/json" },
-  //     body: JSON.stringify(data),
-  //   }).then((res) => {
-  //     console.log("repsonse recieved");
-  //     if (res.status === 2000) {
-  //       console.log("response succeeded");
-  //       setSubmitted(true);
-  //       setFullname("");
-  //       setEmail("");
-  //       setSubject("");
-  //       setMessage("");
-  //     }
-  //   });
-  // }
+    //   fetch("/api/mail", {
+    //     method: "POST",
+    //     headers: { Accept: "applicaton/json, text/plain, */*", "Content-Type": "application/json" },
+    //     body: JSON.stringify(data),
+    //   }).then((res) => {
+    //     console.log("repsonse recieved");
+    //     if (res.status === 2000) {
+    //       console.log("response succeeded");
+    //       setSubmitted(true);
+    //       setFullname("");
+    //       setEmail("");
+    //       setSubject("");
+    //       setMessage("");
+    //     }
+    //   });
+  }
 
   return (
     <div>

@@ -66,7 +66,7 @@ export default function ProjectList() {
 
       <div id="projects" className={classes.projects_container}>
         <div className={classes.project_text}>
-          <h2>Older Projects</h2>
+          <h2>Old Projects</h2>
         </div>
         <div className={classes.card_container}>
           <div onClick={toggleClick} className={classes.project_cards}>

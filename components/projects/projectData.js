@@ -136,12 +136,12 @@ const projectData = [
   {
     id: "Matching-Game",
     title: "Matching-Game",
-    image: require("/public/images/Guessing-Game-2.png"),
-    imageTwo: require("/public/images/Guessing-Game-3.png"),
-    imageThree: require("/public/images/Guessing-Game-1.png"),
+    image: require("/public/images/Matching-Game-1.png"),
+    imageTwo: require("/public/images/Matching-Game-2.png"),
+    imageThree: require("/public/images/Matching-Game-3.png"),
     description: "A Card Matching Game",
     objective: "To gain a better understanding of HTML and Javascript",
-    development: "This guessing game was one of my first javascript projects.",
+    development: "This matching game was one of my first javascript projects.",
     tagline: "Review and Vocab Prep for Language Schools",
 
     process: "process here",
