@@ -91,7 +91,7 @@ const projectData = [
 
     process: "process here",
     tech: ["JS", "HTML", "CSS"],
-    weblink: "bankist-landing-page-six.vercel.app",
+    weblink: "https://bankist-landing-page-six.vercel.app/",
     github: "https://github.com/Edward-Stalley/Bankist-Landing-Page/tree/main",
     course: true,
   },
