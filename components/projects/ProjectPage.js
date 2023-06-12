@@ -4,6 +4,7 @@ import classes from "/pages/projects/NewProjectInfo.module.css";
 
 import React, { useEffect } from "react";
 import Image from "next/future/image";
+import Head from "next/head";
 import projectData from "/components/projects/projectData";
 import Navigation from "/components/sections/Navigation";
 
@@ -53,6 +54,11 @@ export default function ProjectPage() {
 
   return (
     <div className={classes.project_page}>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="display page for selected project with links to github and eternal site" />
+      </Head>
+
       <div id={title} className={classes.project_container}>
         <div>
           <Navigation />
