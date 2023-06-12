@@ -20,7 +20,9 @@ const projectData = [
         I wanted to develop an app that took weekly vocab lists from a
          variety of classes and uploaded them into flashcards for students
          to access for both preperation and review. This app will be updated weekly as the class vocabulary is decided. `,
-    tech: ["CSS", "HTML", "JS", "React", "MySQL", "next.js", "tailwind", "AWS"],
+    // tech: ["CSS", "HTML", "JS", "React", "MySQL", "next.js", "tailwind", "AWS"],
+    tech: ["CSS", "HTML", "JS", "React"],
+
     weblink: "https://flashcard-app-2022-version-2-0.vercel.app/",
     github: "https://github.com/Edward-Stalley/Flashcard-App-2022-Version-2.0/tree/main",
     course: false,
@@ -38,7 +40,9 @@ const projectData = [
       "To create an app that fetches the most recent news from various gaming websites and puts them all in one convenient place.",
     development:
       "As a game enthisast I wanted an easy way to grab the headlines and check the content of a variety of websites. I am utilising puppetter. I got it running on node.js on the backend and then decided to use the api provided by next.js. Both ways are viewable in the code on github.  I plan to update this app so that the content will all be viewable from this app without the need to go the article link to read the text.",
-    tech: ["CSS", "HTML", "JS", "React", "tailwind", "next.js"],
+    // tech: ["CSS", "HTML", "JS", "React", "tailwind", "next.js"],
+    tech: ["CSS", "HTML", "JS", "React"],
+
     weblink: "https://gamesite-scraper-git-main-edward-stalley.vercel.app/",
     github: "https://github.com/Edward-Stalley/Website-Scraper/tree/main/article-scraper",
     course: false,
