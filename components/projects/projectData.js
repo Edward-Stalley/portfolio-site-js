@@ -26,6 +26,23 @@ const projectData = [
     course: false,
   },
   {
+    // test to find white bar reason
+    id: "test",
+    title: "test",
+    image: require("/public/images/Game-News-Scraper-1.png"),
+    imageTwo: require("/public/images/Game-News-Scraper-1.png"),
+    imageThree: require("/public/images/Game-News-Scraper-1.png"),
+    tagline: "this is a test",
+    description: "testing white bar css problem",
+    process: "process here",
+    objective: "test test",
+    development: "test",
+    tech: ["CSS", "HTML", "JS", "React", "tailwind", "next.js"],
+    weblink: "https://gamesite-scraper-git-main-edward-stalley.vercel.app/",
+    github: "https://github.com/Edward-Stalley/Website-Scraper/tree/main/article-scraper",
+    course: false,
+  },
+  {
     id: "Game-News-Scraper",
     title: "Game-News-Scraper",
     image: require("/public/images/Game-News-Scraper-1.png"),
