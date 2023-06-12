@@ -64,8 +64,8 @@ export default function ProjectPage() {
           <Navigation />
         </div>
         {/* <div className=" "> */}
-        <div className="flex justify-center items-center mb-5 mt-10">
-          <h1 className="text-7xl text-pink-100 font-bold  p-0 m-0 ">{newTitle}</h1>
+        <div className="flex justify-center items-center  p-10 mb-5 mt-10">
+          <h1 className="text-7xl text-pink-100 font-bold  p-10 m-0 ">{newTitle}</h1>
         </div>
         <div className="flex flex-col justify-center mt-10 mb-40 md:mb-10  ">
           <div className="text-1xl text-slate-100 pb-2 flex justify-center">
