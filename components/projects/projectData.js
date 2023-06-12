@@ -28,8 +28,8 @@ const projectData = [
   {
     // test to find white bar reason
     // this displays fine - will add text bit by bit to find issue
-    id: "test-test-test-test",
-    title: "test-test-test-test",
+    id: "thisisatest-thisisatest",
+    title: "thisisatest-thisisatest",
     image: require("/public/images/Game-News-Scraper-1.png"),
     imageTwo: require("/public/images/Game-News-Scraper-1.png"),
     imageThree: require("/public/images/Game-News-Scraper-1.png"),
