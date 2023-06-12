@@ -25,33 +25,33 @@ const projectData = [
     github: "https://github.com/Edward-Stalley/Flashcard-App-2022-Version-2.0/tree/main",
     course: false,
   },
-  {
-    // test to find white bar reason
-    // this displays fine - will add text bit by bit to find issue
-    id: "thisisatest-thisisatest",
-    title: "thisisatest-thisisatest",
-    image: require("/public/images/Game-News-Scraper-1.png"),
-    imageTwo: require("/public/images/Game-News-Scraper-1.png"),
-    imageThree: require("/public/images/Game-News-Scraper-1.png"),
-    tagline: "this is a test",
-    description: "testing white bar css problem",
-    process: "process here",
-    objective: "test test",
-    development: `Test Test As a language student I found myself 
-    spending more time making flashcards than actually studying them.
-     When I was a student I wished that my language school had utilised some more modern approaches
-      to studying. Now, as a teacher I wanted to provide that service
-       to my current students. I am utilising the React framework Next.js to do this.
-       With the built in backend api that Next.js provides I can connect
-        to a hosted Mysql database which I created.
-        I wanted to develop an app that took weekly vocab lists from a
-         variety of classes and uploaded them into flashcards for students
-         to access for both preperation and review. This app will be updated weekly as the class vocabulary is decided. `,
-    tech: ["CSS", "HTML", "JS", "React", "tailwind", "next.js"],
-    weblink: "https://gamesite-scraper-git-main-edward-stalley.vercel.app/",
-    github: "https://github.com/Edward-Stalley/Website-Scraper/tree/main/article-scraper",
-    course: false,
-  },
+  // {
+  //   // test to find white bar reason
+  //   // this displays fine - will add text bit by bit to find issue
+  //   id: "thisisatest-thisisatest",
+  //   title: "thisisatest-thisisatest",
+  //   image: require("/public/images/Game-News-Scraper-1.png"),
+  //   imageTwo: require("/public/images/Game-News-Scraper-1.png"),
+  //   imageThree: require("/public/images/Game-News-Scraper-1.png"),
+  //   tagline: "this is a test",
+  //   description: "testing white bar css problem",
+  //   process: "process here",
+  //   objective: "test test",
+  //   development: `Test Test As a language student I found myself
+  //   spending more time making flashcards than actually studying them.
+  //    When I was a student I wished that my language school had utilised some more modern approaches
+  //     to studying. Now, as a teacher I wanted to provide that service
+  //      to my current students. I am utilising the React framework Next.js to do this.
+  //      With the built in backend api that Next.js provides I can connect
+  //       to a hosted Mysql database which I created.
+  //       I wanted to develop an app that took weekly vocab lists from a
+  //        variety of classes and uploaded them into flashcards for students
+  //        to access for both preperation and review. This app will be updated weekly as the class vocabulary is decided. `,
+  //   tech: ["CSS", "HTML", "JS", "React", "tailwind", "next.js"],
+  //   weblink: "https://gamesite-scraper-git-main-edward-stalley.vercel.app/",
+  //   github: "https://github.com/Edward-Stalley/Website-Scraper/tree/main/article-scraper",
+  //   course: false,
+  // },
   {
     id: "Game-News-Scraper",
     title: "Game-News-Scraper",
