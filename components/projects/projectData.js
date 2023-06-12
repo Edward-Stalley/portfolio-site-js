@@ -41,7 +41,7 @@ const projectData = [
     tech: ["CSS", "HTML", "JS", "React", "tailwind", "next.js"],
     weblink: "https://gamesite-scraper-git-main-edward-stalley.vercel.app/",
     github: "https://github.com/Edward-Stalley/Website-Scraper/tree/main/article-scraper",
-    course: false,
+    course: true,
   },
   {
     id: "Dice-Game",
