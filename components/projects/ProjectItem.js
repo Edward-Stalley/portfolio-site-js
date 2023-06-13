@@ -33,7 +33,7 @@ export default function ProjectItem({ title }) {
                     (title === "Game-News-Scraper" && require("/public/images/Game-News-Scraper-1.png")) ||
                     (title === "E.B-Flashcards" && require("/public/images/EB-Flashcards.png")) ||
                     (title === "Flashcard-App" && require("/public/images/Flashcard_Project_Image_2.png")) ||
-                    (title === "Omni-Food-Site" && require("/public/images/Omni-4.png")) ||
+                    (title === "Omni-Food" && require("/public/images/Omni-4.png")) ||
                     (title === "Dice-Game" && require("/public/images/DiceGame_2-900.png")) ||
                     (title === "Guessing-Game" && require("/public/images/Guessing-Game-4.png")) ||
                     (title === "Bankist-App" && require("/public/images/Bankist-1.png")) ||

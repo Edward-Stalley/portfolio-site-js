@@ -65,7 +65,7 @@ export default function Navigation(props) {
               <Link scroll={false} href={`../projects/Bankist-App`}>
                 Bankist
               </Link>
-              <Link scroll={false} href={`../projects/Omni-Food-Site`}>
+              <Link scroll={false} href={`../projects/Omni-Food`}>
                 Omni Food
               </Link>
               {/* <Link scroll={false} href={`../projects/Flashcard-App`}>

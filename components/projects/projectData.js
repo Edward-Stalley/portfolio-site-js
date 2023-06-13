@@ -123,8 +123,8 @@ const projectData = [
     course: true,
   },
   {
-    id: "Omni-Food-Site",
-    title: "Omni-Food-Site",
+    id: "Omni-Food",
+    title: "Omni-Food",
     image: require("/public/images/Omni-2.png"),
     imageTwo: require("/public/images/Omni-4.png"),
     imageThree: require("/public/images/Omni-3.png"),
