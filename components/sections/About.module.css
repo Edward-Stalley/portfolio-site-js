@@ -1,5 +1,6 @@
 .container {
   color: white;
+  /* height: 100vh; */
 }
 
 .landingPage {
@@ -8,7 +9,7 @@
 
 .main {
   display: flex;
-  background-color: yellow;
+  /* background-color: yellow; */
   width: fit-content;
   margin: auto;
   height: 100vh;

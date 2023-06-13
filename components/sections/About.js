@@ -9,19 +9,6 @@ export default function About() {
     <>
       <div className={classes.container}>
         <div className={classes.landingPage}>
-          {/* <div className={classes.image_container}> */}
-          {/* <Image
-              className={classes.image_style}
-              src={require("/public/images/Kyoto-Shrine-1.jpg")}
-              // alt={title}
-              // objectFit="cover"
-              objectPosition="top center"
-              height="100"
-              width="100"
-              layout="fill"
-            ></Image> */}
-          {/* </div> */}
-
           <h1 className={classes.title}>
             <span>Hi,</span> I&apos;m <span>Ed</span> Stalley
           </h1>

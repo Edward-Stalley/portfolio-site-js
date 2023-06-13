@@ -9,92 +9,92 @@ import classes from "/components/sections/Navigation.module.css";
 export default function Navigation(props) {
   return (
     // testing out tailwind css
-    <div
-      className={
-        "sticky flex  w-full lg:justify-end top-0 z-20 py-2 justify-center sm:justify-center md:py-6 bg-slate-100 "
-      }
-    >
-      <ul className={classes.list}>
-        {/* {props.returnBtn && <li>Return to Home</li>} */}
-        <li className={classes.list_item}>
-          {/* <Link scroll={true} href="/#about">
+    <div className=" bg-gray-100 flex justify-center md:justify-end xl:justify-end  ">
+      <div
+      // className={"sticky flex  w-full  lg:justify-end top-0 z-20 py-2 justify-center sm:justify-center md:py-6 bg-slate-100 " }
+      >
+        <ul className={classes.list}>
+          {/* {props.returnBtn && <li>Return to Home</li>} */}
+          <li className={classes.list_item}>
+            {/* <Link scroll={true} href="/#about">
             About
           </Link> */}
-          {/* <a href="/#about">About</a> */}
-          <Link
-            activeClass="active"
-            href={"../#about" ?? " "}
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={50}
-          >
-            About
-          </Link>
-          {/* About
-          {/* <a href={props.about}>About</a> */}
-        </li>
-        <li className={classes.list_item}>
-          <div className={classes.dropdown}>
-            {/* <a href="/#projects"> Projects</a> */}
+            {/* <a href="/#about">About</a> */}
             <Link
-              className={classes.dropdown_link}
-              to="projects"
-              href={"../#projects" ?? " "}
+              activeClass="active"
+              href={"../#about" ?? " "}
+              to="about"
               spy={true}
               smooth={true}
               offset={50}
               duration={50}
             >
-              Projects
+              About
             </Link>
-            <button className={classes.dropbtn}>
-              <i className={classes.icon}></i>
-            </button>
-            <div className={classes.dropdown_content}>
-              <Link scroll={true} href={`../projects/E.B-Flashcards`}>
-                E.B Flashcards
-              </Link>{" "}
-              <Link scroll={true} href={`../projects/Game-News-Scraper`}>
-                Game News Scraper
+            {/* About
+          {/* <a href={props.about}>About</a> */}
+          </li>
+          <li className={classes.list_item}>
+            <div className={classes.dropdown}>
+              {/* <a href="/#projects"> Projects</a> */}
+              <Link
+                className={classes.dropdown_link}
+                to="projects"
+                href={"../#projects" ?? " "}
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={50}
+              >
+                Projects
               </Link>
-              <Link scroll={false} href={`../projects/Dice-Game`}>
-                Dice Game
-              </Link>
-              <Link scroll={false} href={`../projects/Bankist-App`}>
-                Bankist
-              </Link>
-              <Link scroll={false} href={`../projects/Omni-Food`}>
-                Omni Food
-              </Link>
-              {/* <Link scroll={false} href={`../projects/Flashcard-App`}>
+              <button className={classes.dropbtn}>
+                <i className={classes.icon}></i>
+              </button>
+              <div className={classes.dropdown_content}>
+                <Link scroll={true} href={`../projects/E.B-Flashcards`}>
+                  E.B Flashcards
+                </Link>{" "}
+                <Link scroll={true} href={`../projects/Game-News-Scraper`}>
+                  Game News Scraper
+                </Link>
+                <Link scroll={false} href={`../projects/Dice-Game`}>
+                  Dice Game
+                </Link>
+                <Link scroll={false} href={`../projects/Bankist-App`}>
+                  Bankist
+                </Link>
+                <Link scroll={false} href={`../projects/Omni-Food`}>
+                  Omni Food
+                </Link>
+                {/* <Link scroll={false} href={`../projects/Flashcard-App`}>
                 Flashcard App
               </Link> */}
-              {/* <Link scroll={false} href={`../projects/Guessing-Game`}>
+                {/* <Link scroll={false} href={`../projects/Guessing-Game`}>
                 Guessing Game
               </Link> */}
-              {/* <Link scroll={false} href={`../projects/Bike-Website`}>
+                {/* <Link scroll={false} href={`../projects/Bike-Website`}>
                 Bicycle Website
               </Link> */}
+              </div>
             </div>
-          </div>
-        </li>
-        <li className={classes.list_item}>
-          <Link className={"bg:blue"} scroll={false} href="../#contact">
-            Contact
-          </Link>
-        </li>
+          </li>
+          <li className={classes.list_item}>
+            <Link className={"bg:blue"} scroll={false} href="../#contact">
+              Contact
+            </Link>
+          </li>
 
-        {/* <li className={classes.list_item}>
+          {/* <li className={classes.list_item}>
           <a href="#projects-section">Projects</a>
         </li> */}
-        {/* <li className={classes.list_item}> */}
-        {/* <Link to="contact" spy={true} smooth={true} offset={50} duration={50}>
+          {/* <li className={classes.list_item}> */}
+          {/* <Link to="contact" spy={true} smooth={true} offset={50} duration={50}>
             Contact
           </Link> */}
-        {/* </li> */}
-      </ul>
+          {/* </li> */}
+        </ul>
+      </div>
     </div>
   );
 }
