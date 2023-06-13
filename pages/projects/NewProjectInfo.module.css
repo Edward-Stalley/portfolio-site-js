@@ -1,8 +1,9 @@
 .project_container {
   background: #181818;
-  display: grid;
-  margin: auto;
-  width: 100%;
+  /* background: #c0fff4; */
+  /* display: grid; */
+  /* margin: auto; */
+  /* width: 100%; */
 }
 
 .content_container {
