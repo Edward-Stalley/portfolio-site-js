@@ -53,10 +53,10 @@ export default function Navigation(props) {
               <i className={classes.icon}></i>
             </button>
             <div className={classes.dropdown_content}>
-              <Link scroll={false} href={`../projects/E.B-Flashcards`}>
+              <Link scroll={true} href={`../projects/E.B-Flashcards`}>
                 E.B Flashcards
               </Link>{" "}
-              <Link scroll={false} href={`../projects/Game-News-Scraper`}>
+              <Link scroll={true} href={`../projects/Game-News-Scraper`}>
                 Game News Scraper
               </Link>
               <Link scroll={false} href={`../projects/Dice-Game`}>
