@@ -81,7 +81,7 @@ export default function Navigation(props) {
           </div>
         </li>
         <li className={classes.list_item}>
-          <Link className={"bg:blue"} scroll={false} href="/contact">
+          <Link className={"bg:blue"} scroll={false} href="../#contact">
             Contact
           </Link>
         </li>
